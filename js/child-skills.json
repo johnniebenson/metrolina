@@ -1,0 +1,3177 @@
+{
+	"client": "child",
+	"assessment": [
+		{
+			"category": "Long Cane Techniques",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate an awareness of different types of canes"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate an awareness of different types of canes"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Recognize parts of the cane"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate diagonal technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate diagonal trailing technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate two point touch technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate trailing with two point touch technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate touch and drag technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate touch and slide technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate shoreline technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate three point touch technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate constant contact technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate three point check technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Ascend stairs (alternate or step by step)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Descend stairs (alternate or step by step)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use cane responsibly"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Store and retrieve the cane as needed"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Hold or use the cane appropriately with human guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Clear with the cane before stepping"
+				}				
+			]
+		},
+		{
+			"category": "Human Guide",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate basic human guide technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate basic human guide technique (e.g. proper arm, hand & body position, maintain grip, stop and go, changing surfaces, etc.)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate up and down curbs with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Narrow passage technique with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Changing sides with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Changing directions with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate doors with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Ascending and descending stairs with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Escalator skills"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Hines break technique"
+				}									
+			]
+		},
+		{
+			"category": "Basic Skills",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Upper body self-protective techniques"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Lower body self-protective techniques"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Combine upper and lower body self-protective techniques"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safe and effective hand trailing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Combine hand trailing with self-protective techniques"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use squaring off technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use direction taking"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Locate dropped objects in a systematic manner"
+				}				
+			]
+		},		
+		{
+			"category": "Visual Skills",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Visually detect curbs/drop offs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detect obstacles in line of travel"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detect hanging obstacles"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detect ramps/blended curbs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detect and interpret traffic control signals"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detect and interpret pedestrian signals"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detect vehicles approaching intersection"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Complete street crossing without veering"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Scan and locate objectives"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Locate and read room numbers & signage"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Understand the purpose of the low vision device"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain the device properly"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Hold monocular steady"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Focus monocular to bring object into focus"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Trace a line, contour or edge in order to conceptualize an object"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Scan with the device to demonstrate efficient visual search patterns"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Track with the device to follow moving objects or people"
+				}				
+			]
+		},	
+		{
+			"category": "Self-Propulsion & Attending Behaviors",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Intentionally move body by scooting"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Intentionally move body by rolling"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Intentionally move body by crawling"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Intentionally move body by cruising along furniture"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Intentionally move body by walking with support"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Walk without support"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain hold of an object while walking (skill is necessary for future cane use)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Turn toward a voice or noise"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Reach or move toward a noise stimulus"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Look at a shiny object or light for at least 3-5 seconds (Low vision)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Reach or move toward an object or light (Low vision)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Respond to a vibrating object"
+				}			
+			]
+		},			
+		{
+			"category": "Orientation",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Identify opposite compass directions (N/S & E/W)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Read and use a compass correctly"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify intermediate compass points (NE, SE, NW, SW)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify compass directions in relation to self"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use the sun to determine compass directions"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify the directional side of a street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify the directional corner of an intersection"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Execute a route of travel using compass directions"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use landmarks for orientation"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use clues for orientation"
+				}
+			],
+			"groups": [
+				{
+					"group": "Indoor Numbering Systems",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identify that rooms in buildings have numbers"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify where indoor signage is found on/by a door"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify numbers generally get bigger/smaller heading in one direction"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify that evens sometimes found on one side of the hall"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify that initial digit can identify floor number of a room"
+						}						
+					]
+				},
+				{
+					"group": "Outdoor Numbering Systems",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identify that houses/businesses have street addresses"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify where an address can be found on a house"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify where an address can be found on a business"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify that even number addresses are either on east/west side of streets and either north/south side of streets (depending on the town)"
+						}						
+					]
+				},
+				{
+					"group": "Street Systems",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identify reference lines (dividers) for town/city"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify that block numbers generally run in the 100s"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify that block numbers decrease when going toward reference lines"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify that block numbers increase when going away from reference lines"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use address to determine approximate number of blocks to reference line"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify methods for determining reference lines in various cities"
+						}						
+					]
+				},
+				{
+					"group": "GPS",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identify purpose of GPS"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use GPS device to determine compass direction"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use GPS device to plot route to a desired POI"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use GPS device to plot route by address"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify limitations of GPS devices"
+						}						
+					]
+				},
+				{
+					"group": "Maps",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identify purpose of a map"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Scan map systematically to get overview"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate items from key on map"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Describe relationships between items on the map using compass directions"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use simple map to complete route"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Create maps of a familiar space or route"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrate understanding of relationships between items on the map and what those items represent in the real world"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Select appropriate symbols when creating a map (e.g. selecting large symbol to represent the school gym and a small symbol to represent the girls bathroom)"
+						}						
+					]
+				}																
+			]
+		},			
+		{
+			"category": "On Campus Orientation & Mobility",
+			"groups": [
+				{
+					"group": "Classroom",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Locate a seat"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Travel in a room without contacting objects or people (visual traveler)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Safely locate pertinent areas/objects in the room"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Exit the classroom safely during an emergency situation"
+						}						
+					]
+				},
+				{
+					"group": "School Building",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Detect stairs"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Ascend and descend stairs alone"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate opened/closed doors"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Open and close doors unassisted"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate desired destinations within the school"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Safely maneuver around others in the hall while changing classes"
+						}						
+					]
+				},
+				{
+					"group": "School Cafeteria",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Locate entrance and exit"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate line and tray"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Go through cafeteria line"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Carry tray while using cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate seat at a table"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate trash and tray return"
+						}						
+					]
+				},
+				{
+					"group": "Outdoor Campus",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Name streets in the school vicinity"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Stop at streets and driveways independently"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate outdoor areas of campus (e.g. playground, bus stop, track)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate other buildings on campus"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Negotiate pedestrian traffic safely (e.g. during arrival & dismissal, at lunch, during recess)"
+						}					
+					]
+				}												
+			]
+		},				
+		{
+			"category": "Residential Orientation & Mobility",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate the ability to define a residential area"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Locate and identify common environmental features of residential areas (e.g. cul-de-sac)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate knowledge of the concept of a city block"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate knowledge of the concept of an intersection and its relationship to a city block"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate knowledge of the concept of grid system"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain a straight line of travel on a residential sidewalk without excessive veering"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Correct for veering on a residential sidewalk"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Cross driveways and correct for veering when it occurs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel safely and reorient on irregular sidewalks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maneuver safely around obstacles in the travel path (e.g. trash cans, vehicles) and maintain line of travel"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel safely in areas without sidewalks or paths"
+				}				
+			],
+			"groups": [
+				{
+					"group": "Execute the following routes within a square block:",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "An \"I\" shape (a straight line from corner to corner)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "An \"L\" shape"
+						},
+						{
+							"type": "checkbox",
+							"skill": "A \"U\" shape"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Around the block"
+						}						
+					]
+				},
+				{
+					"group": "Execute different shaped routes within a grid pattern neighborhood (more than one block)",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "An \"I\" route (a straight linear route of consecutive blocks)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "An \"L\" shaped route of consecutive blocks"
+						},
+						{
+							"type": "checkbox",
+							"skill": "A \"U\" shaped route around a series of blocks"
+						},
+						{
+							"type": "checkbox",
+							"skill": "A \"Z\" route (a zig-zag route consisting of a series of blocks)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "A rectangular route (using multiple blocks)"
+						}						
+					]
+				}				
+			]
+		},		
+		{
+			"category": "Residential Street Crossings",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Locate down curb, ramped curb cut, or blended curb and stop a safe distance from the street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify and locate a crosswalk"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use traffic to align oneself in preparation for crossing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually judge the distance and speed of moving vehicles (Low vision)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Auditorily judge the distance and speed of moving vehicles"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Wait for assistance to cross the street (if applicable)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain line of direction at the corner"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use indenting away from the parallel street (if applicable)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify parallel (street on side) and perpendicular (cross street in front or behind student) streets"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify the number of lanes on the parallel street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify the number of lanes on the perpendicular street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify turning traffic patterns on the parallel street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify turning traffic patterns on the perpendicular street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Display cane in the \"ready and waiting\" diagonal position for visibility"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Wait on traffic when in question"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use body language to communicate to drivers the desire to wait"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Cross in the absence of traffic"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Cross in the presence of traffic"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safely navigate past and/or around an idling car"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Correct for veering when crossing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Correct for veering after crossing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Locate the desired direction after crossing"
+				}		
+			],
+			"groups": [
+				{
+					"group": "Identify traffic concepts in relation to self",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Recognize the presence and absence of traffic"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify parallel traffic"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify perpendicular traffic"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify when traffic is far or near"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify fast and slow traffic"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify traffic moving toward and away from self"
+						}						
+					]
+				},
+				{
+					"group": "Determine the type of intersection by visually and/or auditorily analyzing the traffic patterns/flow",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "+ intersection"
+						},
+						{
+							"type": "checkbox",
+							"skill": "T intersection"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Y intersection"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Offset intersection"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Two way by two way traffic flow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "One way by two way traffic flow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "One way by one way traffic flow"
+						}						
+					]
+				},
+				{
+					"group": "Identify the type of traffic control at each intersection in a residential setting",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "2 way stop intersections"
+						},
+						{
+							"type": "checkbox",
+							"skill": "3 way stop intersections"
+						},
+						{
+							"type": "checkbox",
+							"skill": "4 way stop intersections"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Roundabout"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Uncontrolled intersections"
+						}						
+					]
+				}								
+			]
+		},				
+		{
+			"category": "Atypical Orientation & Mobility",
+			"groups": [
+				{
+					"group": "Rural Travel",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identify landmarks, clues, and hazards unique to rural areas"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify equipment/canes useful for rural travel (e.g. bundu basher, Dakota disc, cell phone, flashlight)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify the distinct guideline and type of surface at the edge of a street or road (e.g. curb, shoulder, grass line, fence, gravel, dirt, blacktop, embankment)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Follow the edge of a roadway with an intermittent curb or no curb"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Walk safely on the street edge facing oncoming traffic"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Walk safely (for short distances only) on the street edge traveling on rough surfaces"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain a line of travel and relocate the shoreline after short breaks are encountered"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use indenting away from the parallel street when lining up to cross a rural intersection"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Reestablish a line of travel after negotiating puddles, leaf piles or other obstacles"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Travel safely around parked vehicles, including farm equipment, using upper body protection as needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrate safe and efficient travel along a dirt footpath and in various depths of grass"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use the shoreline and available traffic to project a line of travel"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify specific destinations in a rural area"
+						}						
+					]
+				},
+				{
+					"group": "Night travel",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Use appropriate cane techniques for low light conditions (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Wear appropriate clothing to be visible at dusk and at night"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Accommodate to a variety of lighting conditions (e.g. light to dark, dark to light, glare from headlights)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Visually detect obstacles in path of travel (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Detect intersecting sidewalks (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Detect drop offs (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use shadows to gain information (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use a flashlight or other night vision device to enhance visual performance (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Visually detect walk signals and traffic lights (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Visually detect crosswalks (low vision)"
+						}						
+					]
+				},
+				{
+					"group": "Adverse Weather Conditions",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Safely travel familiar routes in adverse weather"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Remain oriented to familiar routes in adverse weather"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Remain calm as weather conditions change"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Obtain and use assistance in adverse weather conditions as needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Interpret difficult travel situation and determine when to use alternative methods of travel (e.g. assistance, Uber)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Recognize when auditory clues are masked or distorted (e.g. from wind, rain)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Recognize with tactile clues are masked or distorted (e.g. from leaves, snow)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use line of direction, compass directions, and knowledge of street patterns for maintaining orientation when tactile landmarks are not available"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Wear appropriate clothing and gear for different weather conditions"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Gather information in advance concerning travel conditions"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Travel safely in unfamiliar areas in adverse weather"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain balance on ice and snow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain stamina on ice and snow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify and problem solve when tactile information is decreased through hands and feet in cold weather"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Respond to tactile information received through the hands and feet in cold weather"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Stay on the sidewalk while traveling in the snow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain a line of travel when sidewalk conditions change in snow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify a curb in snow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Cross the street safely in snow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain effective use of vision while traveling when the glare of the sun on the snow is present (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify drop offs when there is a lack of contrast caused by the snow (low vision)"
+						}						
+					]
+				}								
+			]
+		},	
+		{
+			"category": "Commercial Orientation & Mobility",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Maintain a straight line of travel on wide congested sidewalks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Solicit help in an appropriate manner"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify and negotiate gas stations/parking lots"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel safely past street hardware"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Locate specific destinations in a commercial area"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify street hardware and environmental components of commercial areas"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safely use escalators"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safely use elevators"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safely use moving sidewalks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safely use revolving doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Recognize and safely cross railroad tracks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate construction areas"
+				}				
+			]
+		},
+		{
+			"category": "Commercial Street Crossings",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Identify traffic signal controlled intersections"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Find an alternative when a crossing is too confusing or unsafe"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify parallel and perpendicular traffic surges"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually locate and interpret traffic lights (low vision)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually locate and interpret pedestrian signal (low vision)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Locate and understand use of crosswalk buttons"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify and use accessible pedestrian signals (APS)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify turning cars"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Position body correctly at the corner for crossing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Align with traffic"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Determine the correct time to cross"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain a straight line of travel during crossing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Remain oriented to the desired direction of travel after crossing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make multiple or double street crossings"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safely cross an intersection with a permissive left turn"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safely cross an intersection with a protected left turn"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate use of scanning to locate traffic threats during crossing (low vision)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify, T, Y, offset and other unusual intersections and make safe crossing decisions"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Safely cross at a complex traffic signal controlled intersection (multi-lane, multi-cycle)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate an intersection with a traffic control island or median strip"
+				}				
+			]
+		},
+		{
+			"category": "Community Experiences",
+			"groups": [
+				{
+					"group": "Shopping in a Variety of Stores",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identify characteristics and concepts that are associated with a variety of businesses in the community"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Obtain information about a business by using the telephone or internet"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Enter a store or business establishment"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Obtain information about the store using one's senses"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use correct cane techniques within a store"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Negotiate pedestrians, displays, counters"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate store employee or another customer to aid in shopping"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Visually locate a specific department (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Independently locate a desired item"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Independently locate the cash register and checkout line"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use a money management system for paper currency"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pay for items independently"
+						}
+					]
+				},
+				{
+					"group": "Grocery Store",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Create list of desired items to purchase"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Call ahead to arrange for a personal shopper"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Determine which entrance to use and locate it"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate a cart"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate customer service"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Solicit assistance from customer service to get a personal shopper"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify names, labels, or packaging of items (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Visually locate a specific item (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate prices for items (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Put items in shopping cart"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate cashier and checkout line"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Put items on the conveyor belt"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pay for items"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Exit the store safely and appropriately"
+						}
+					]
+				},
+				{
+					"group": "Shopping Malls",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Gather information about the mall (e.g. whether there is bus access available, which doors to enter and exit, stores available, and layout)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate and use a mall directory (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Effectively solicit assistance"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate specific destinations"
+						}
+					]
+				},
+				{
+					"group": "Banking or Postal Facilities",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Phone or use the internet to get information about locations"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the end of the line"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Go to the counter when called and complete a transaction"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Put a letter in the mailbox or make a deposit/withdrawal"
+						}
+					]
+				},
+				{
+					"group": "Restaurant",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Demonstrate ability to perform necessary travel tasks (e.g. find line, order/pay, step to side to wait for food) in fast food restaurants"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Accommodate to dim lighting (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Speak with hostess to request table"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate a table"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate and read a menu (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Get assistance in reading the menu (if necessary)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate objects on the table (e.g. salt, pepper, silverware)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Eat without assistance"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use proper table manners"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate or seek assistance to find the restroom"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pay the bill"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Tip appropriately"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the exit"
+						}
+					]
+				},
+				{
+					"group": "When choosing a residence",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identify knowledgeable sources to assist in locating available residences (e.g. apartment locators, real estate brokers, internet)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify desirable features that meet individual needs (e.g. accessibility, near bus routes, small complex, safety of neighborhood, travel to nearby shopping, price of rent)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify features within the residence (laundry facilities, yard, electric stove, internet access, cable, exercise facilities)"
+						}
+					]
+				}																				
+			]
+		},	
+		{
+			"category": "Transportation",
+			"groups": [
+				{
+					"group": "Vehicle familiarization",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Explore a variety of types of vehicles (sedans, vans, SUVs, trucks, electric cars) and their parts including doors, seats, seatbelts, side mirrors, side windows, locking mechanisms, etc."
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the passenger side and the driver side"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the front seat and the back seat"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Lock and unlock the door unassisted"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify and locate the door when the car is approached at different angles (e.g. diagonally, parallel, and perpendicularly parked cars)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Store the cane appropriately in a vehicle"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Put on and take of a seat belt"
+						}					
+					]
+				},
+				{
+					"group": "Bus travel",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Access bus schedule information, costs, and payment options (printed schedule, internet, phone)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate bus stops"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Read bus numbers (low vision)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Wait for the bus in an appropriate manner and location (be visible to driver)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Display cane while waiting"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Inquire if bus is going to correct destination"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Board and exit a bus safely"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Use the lift/ramp safely when using a wheelchair"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pay or show ID to the bus driver"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Solicit assistance from the bus driver or other passengers"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate a seat"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain orientation after disembarking"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Transfer to a second bus on a route"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Know an emergency procedure or have back up plans for unexpected situations"
+						}
+					]
+				},
+				{
+					"group": "Paratransit",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Research types and features of paratransit systems available in the community (e.g. eligibility, cost)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Obtain an application for a paratransit system"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Arrange for transportation pick up and drop off (time, location)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Board and exit the paratransit vehicle"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Utilize a lift safely when using a wheelchair"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pay or show ID to para transit driver"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Solicit assistance from the driver or other passengers if needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate a seat"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain orientation after disembarking"
+						}
+					]
+				},
+				{
+					"group": "Taxi, Uber, Lyft",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Research available taxi companies"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Arrange for taxicab pick-up and drop off (e.g. time, location, estimated fare)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Wait for the taxi cab in the designated place"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pay and tip the driver appropriately upon arrival at the destination"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain orientation after reaching destination"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Solicit assistance from the driver for orientation at the destination"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Describe pros/cons of using Taxi vs. Uber/Lyft"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Request ride to desired destination using Uber/Lyft app"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Communicate with Uber/Lyft driver"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate Uber/Lyft vehicle"
+						}
+					]
+				},
+				{
+					"group": "Rail Systems",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Access rail system route information, including costs and payment options"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the entrance to a familiar rail station"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the fare box, turnstile and information booth"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the edge of the platform for orientation purposes"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the appropriate waiting area"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate the door and enter the train car"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate a seat or standing area in a crowded train car"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Follow emergency procedures if necessary"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintain orientation after disembarking"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Receptive & Expressive Language"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Exit the station and remain oriented"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Call in advance and request assistance if needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Obtain assistance when needed in unfamiliar stations"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Negotiate transfers within a variety of rail stations"
+						}
+					]
+				},
+				{
+					"group": "Transportation systems between cities (air, train, bus, ferry)",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Obtain travel information by phone internet or from travel agents (e.g. schedules, cost, baggage, limitations)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify current security procedures and pack accordingly"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Obtain ticket"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Travel to the station or airport"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Check baggage and obtain seat assignment"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate airport security"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Obtain assistance to gate or boarding area"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Board the plane, train, bus or ferry"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Locate a seat"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Exit safely"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Make arranges for further transportation upon arrival"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrate skills and procedures for traveling when no public transportation is available"
+						}
+					]
+				}																				
+			]
+		},
+		{
+			"category": "Receptive & Expressive Language",
+			"groups": [
+				{
+					"group": "Receptive language",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Follow one step O&M commands (e.g. stand up, sit down, stop, walk forward, turn around, turn)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Follow two step related commands (e.g. locate the chair and sit down)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Follow two step unrelated commands (e.g. pass the water fountain and stop at the first door)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Follow conditional commands (e.g. if you hear a car, stop)"
+						}		
+					]
+				},
+				{
+					"group": "Expressive language",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Ask \"yes\" and \"no\" questions"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Offer choices"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Ask who, what, when, where questions"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Ask why and how questions"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Ask questions that require judgment"
+						}
+					]
+				}				
+			]
+		},			
+		{
+			"category": "Attitude & Behavior",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Exhibit knowledge and acceptance of one's visual impairment"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Cooperate with the O&M specialist"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Recognize need for O&M instruction"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Rely on self for travel needs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Exhibit confidence during travel"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Exhibit appropriate grooming and hygiene"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use appropriate ways of greeting and interacting with others"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Differentiate between public and private behaviors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Differentiate between familiar people and strangers"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Respect other people's personal space"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Exhibit appropriate manners including courteous language and volume control"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Be mindful of others within close proximity and adjust travel speed as necessary"
+				}			
+			]
+		},		
+		{
+			"category": "Auditory Abilities",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Attend to environmental sounds"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Attend to speech"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Localize a stationary sound"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Track a moving sound"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify and label environmental sounds"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use sounds to orient to the environment"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Apply spatial concepts to sound localization (e.g. traffic is behind me)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use object perception to determine the presence of obstacles (e.g. walls, people)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Recognize sound shadows"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Recognize baffles"
+				},
+				{
+					"type": "checkbox",
+					"skill": "React appropriately to warning signals or sounds in the environment (e.g. sirens, trucks backing up, vehicles honking)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify vehicles by sound (e.g. busses, trucks, motorcycles, bicycles)"
+				}
+			]
+		},	
+		{
+			"category": "Spatial Awareness",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Identify the front, back, left, and right side of a room in relation to the door"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify the directional corners of a room (i.e. front right, front left, back right, back left)"
+				}
+			]
+		},	
+		{
+			"category": "Laterality & Directionality",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate a functional awareness of sides (reaches to the left or right to locate an object)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Consistently use left and/or right sides within a functional activity (e.g. using an eating utensil, opening a door)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Consistently turn the correct way when traveling a familiar route"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate right and left upon request"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate laterality in relation to objects (e.g. put the wall on your left)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate the ability to follow increasingly complex sequences of directions using laterality"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate left and right awareness when facing another person"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate directionality in relation to objects (e.g. the sink is to the left of the refrigerator)"
+				}
+			]
+		},	
+		{
+			"category": "Turns",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Make a 90 degree turn upon request"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make a 180 degree turn upon request"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make a 360 degree turn upon request"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Initiate turns as needed in independent travel"
+				}
+			]
+		},	
+		{
+			"category": "Time/Distance Concepts & Ordinal Sequencing",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Identify time distance awareness in the school setting (e.g. travel the longest route to your classroom)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate an awareness of the amount of time needed to cross a residential street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate an awareness of the amount of time needed to cross a commercial area street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate an awareness of the amount of time it takes to walk a block"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrate the ability to use ordinal sequencing (1st, 2nd, 3rd) to locate objects or destinations"
+				}
+			]
+		},	
+		{
+			"category": "Body Image",
+			"groups": [
+				{
+					"group": "Identify facial parts (through touch, imitation, or functional use)",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Nose"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Mouth"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Chin"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Eyes"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Cheeks"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Ears"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Forehead"
+						}		
+					]
+				},
+				{
+					"group": "Identify body parts (through touch, imitation, or functional use)",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Hair"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Head"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Trunk/ Torso"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Chest"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Back"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Neck"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Shoulder"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Arm"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Forearm"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Upper Arm"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Wrist"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Elbow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Hand"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Back of Hand"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Palm of Hand"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Thumb"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Finger"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Stomach"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Waist"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Hip"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Leg"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Thigh"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Knee"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Calf"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Ankle"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Foot"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Toe"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Heel"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Shin"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Buttocks"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Fingernails"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Toenails"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Knuckles"
+						}
+					]
+				},
+				{
+					"group": "Demonstrate spatial awareness and movement of head, limbs, and trunk through imitation, or functional use",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Straighten arm"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Bend arm at the elbow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Lift arm high in the air"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Put arm out in front"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Put arm out to the side"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Put arm in back (or behind)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Straighten leg, in front"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Bend leg at the knee"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Point and flex feet"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Cross midline"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Place palms up or down"
+						}
+					]
+				},
+				{
+					"group": "Demonstrate movement of the whole body from a standing position through imitation or functional use",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Bend body forward"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Bend body backward"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Bend body to the side"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Squat down, bending at knees"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Stand up on tiptoes"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Quantitative & Directional/Positional"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Jump"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Move to the side by stepping sideways"
+						}
+					]
+				},
+				{
+					"group": "Identify body planes (through touch, imitation, or functional use)",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Front of body"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Back of body"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Top of head"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Side of body"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Bottom of feet"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Place objects in relation to body planes"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Front of body"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Back of body"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Top of head"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Side of body"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Under foot"
+						}
+					]
+				}																				
+			]
+		},	
+		{
+			"category": "Quantitative & Directional/Positional",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Big/Little"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Short/long"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Narrow/wide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Deep/shallow"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Tall/short"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Inch"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Foot"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Yard"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Mile"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Centimeter"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Meter"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Kilometer"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Up/down"
+				},
+				{
+					"type": "checkbox",
+					"skill": "In/out"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Top/bottom"
+				},
+				{
+					"type": "checkbox",
+					"skill": "In front/in back/behind"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Over/under"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Near/far"
+				},
+				{
+					"type": "checkbox",
+					"skill": "High/low"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Beginning/end"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Next to (beside)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Between"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Center (middle)/corner/side"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Straight/crooked"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Through/around"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Open/closed"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Forward/backward"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Toward/away"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Parallel/perpendicular"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Diagonal"
+				}
+			]
+		},
+		{
+			"category": "Colors & Shapes",
+			"groups": [
+				{
+					"group": "Demonstrate the ability to identify the following colors and shapes by naming, pointing to, or matching:",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Red"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Orange"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Blue"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Black"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Yellow"
+						},
+						{
+							"type": "checkbox",
+							"skill": "White"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Green"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Purple"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Brown"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Silver"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Gold"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pink"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Circle"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Square"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Triangle"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Rectangle"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Oval"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Diamond"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pentagon"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Hexagon"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Octagon"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Cube"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Sphere"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Cylinder"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Pyramid"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Cone"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Rectangular prism"
+						}					
+					]
+				}
+			]
+		},
+		{
+			"category": "Use of a Wheelchair for Orientation & Mobility",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Safely transfer into and out of a wheelchair (e.g. setting brakes, lifting or swinging away footrests, releasing the seatbelt, planning a transfer and positioning the wheelchair to make a transfer, fastening the seatbelt, noticing safety hazards such as slippery floors)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Set breaks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Release breaks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Utilize unique chair features including tilts and postural controls"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Propel the chair forward to reach a destination"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maneuver the chair backward for turns or go through doors, elevators or transportation lifts"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Execute right and delft turns safely"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Recognize and adjust for veering"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Determine stopping distance and safe rate of speed"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain a line of travel using a guideline (wall, rail, furniture, visual markings) indoors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain a line of travel using a guideline (wall, rail, furniture, visual markings) outdoors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel safely over irregularities in surfaces (e.g. thresholds, speed bumps, broken sidewalks)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel safely over various outdoor surfaces (e.g. pavement, grass, gravel)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stay on the sidewalk, traveling in a straight line"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Open and close doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stop or slow the movement of the chair on indoor level surfaces"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stop or slow the movement of the chair when traveling down an access ramp"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stop or slow the movement of the chair as needed when traveling up and access ramp"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stop or slow the movement of the chair when approaching another person as needed"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stop or slow the movement of the chair when approaching ramped curb cuts or blended curbs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make 90 degree turns clearing walls and doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make 180 degree turns clearing walls and doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make 360 degree turns clearing walls and doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Detect and negotiate obstacles along the travel path"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detect overhanging objects (low vision)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Carry objects"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Detect drop offs and determine drop off height/depth"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel along a curved shoreline"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate elevators"
+				}
+			],
+			"groups": [
+				{
+					"group": "Power Chairs",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Turn a power chair on and off"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Adjust specific positioning features of a power chair"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Operate break/motor engagement lever on power chair"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Give directions for disengaging the drive mechanism (to make it manual)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Operate joystick/head control/throttle control lever"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Apply procedure for emergency baking (kill switch or remove hand from joystick)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Adjust power chair speed/mode appropriately, based on environment"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Store and maintain power wheelchair"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Connect/disconnect battery charger, plug charger into the wall, turn on charger"
+						}					
+					]
+				},
+				{
+					"group": "Scooters",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Adjust tiller on the scooter to fit the driver"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Steer the scooter while pressing the forward and reverse direction accelerator"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Insert the key and turn the scooter on/off"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Adjust seat position/rotate seat appropriately for transfers and for driving"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Operate or give directions for engaging/disengaging the drive mechanism"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Properly monitor and maintain battery charge status"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Assemble/disassemble the scooter"
+						}
+					]
+				},		
+				{
+					"group": "Self-Advocacy",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Ask for assistance when needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Refuse help when not needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Alert other persons who are VI of the presence of the wheelchair"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Instruct the assistant in transfers"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identify accessible public transportation options"
+						}
+					]
+				},	
+				{
+					"group": "Guide Technique",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Correct wheelchair position without letting go"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Respond to stop and go cues"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Respond to the guide's movement for turning"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Adjust to the guides speed of travel"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrate the ability to act as a guide for another person with a visual impairment"
+						}
+					]
+				},
+				{
+					"group": "Navigate tight spaces",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Forward"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Reverse"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Stop quickly"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Turn left forward"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Turn right forward"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Turn right backward"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Turn left backward"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Figure 8 forward"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Figure 8 backward"
+						}
+					]
+				},	
+				{
+					"group": "Long cane techniques with a wheelchair",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Store the cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Diagonal"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Verification"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Constant Contact"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Reposition cane to travel closer to walls, doors, furniture"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Shoreline"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Touch and drag"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Three point touch"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Three point check"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Clearing with the cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Waiting position with the cane in preparation fo street crossing"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Flagging upon initiation of crossing"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Touch technique"
+						}
+					]
+				}																			
+			]
+		},
+		{
+			"category": "Use of a Walker for Orientation & Mobility",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Make safe transitions from the floor to the walker"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make safe transitions from a chair to the walker"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Walk forward with the walker to reach a destination"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make turns in the walker"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate obstacles without compromising balance"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Control speed of movement when moving up or down an access ramp, ramped curb cut or blended curb"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain balance when going up or down a curb"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Reach forward or sideways to obtain an object slightly out of reach, maintaining safe, upright position with stable balance"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate push doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate pull doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Perform general maintenance of a walker"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Ask for assistance when needed"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Refuse assistance when not needed"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Alert other persons who are visually impaired of the presence of the walker"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Instruct assistant transfers"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identify accessible public transportation options"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel over irregularities in indoor surfaces (e.g. thresholds)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain a line of travel using objects in the environment (e.g. walls, rails, furniture)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use closes, landmarks and echolocation"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use hand trailing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel safely over various outdoor surfaces"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stay on the sidewalk traveling in a straight line"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Reposition the walker on the sidewalk after veering"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use access ramps, ramped curb cuts, and blended curbs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate curbs safely when going up or down"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stop a safe distance from the street"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Locate the crosswalk"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Locate the ramped curb cut on the opposite side"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Determine if the length of the pedestrian cycle to ensure that it is long enough for a safe crossing (if it is not long enough determine alternate route)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Determine traffic pattern"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Determine the surface conditions of the ramped curb cut"
+				}
+			]
+		},
+		{
+			"category": "Use of Crutches for Orientation & Mobility",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Make safe transitions from the floor or a chair to a standing position"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Walk forward to reach destination"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make turns"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate turns without losing balance"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Reach forward or sideways to obtain or place an object slightly out of reach, while maintaining balance"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Follow the steps for ordering parts and performing general maintenance of crutches"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain verbal, auditory and/or visual contact with the assistant"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Request assistance appropriately"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Instruct the assistant regarding the level and type of assistance needed"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel over irregularities in indoor surfaces (e.g. thresholds, carpeting, tiles)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Scan visually with one crutch for obstacles on the floor that might interfere with crutch placement"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain a line of travel indoors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate pull doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate push doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate stairs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel safely over various outdoor surfaces (e.g. pavement, grass, gravel)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stay on a sidewalk traveling in a straight line"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use access ramps and ramped curb cuts"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate curbs safely when going up or down"
+				}
+			]
+		},																				
+		{
+			"category": "Use of One Handed Support Device for Orientation & Mobility",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Make safe transitions from the floor or a chair to a standing position"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Walk forward to reach destination"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make turns"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate turns without losing balance"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Reach forward or sideways to obtain or place an object slightly out of reach, while maintaining a safe, upright position with stable balance"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Make safe transitions from the floor or a chair to a standing position"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Follow the steps for ordering parts and performing general maintenance of one handed support devices"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain contact with a human guide using correct grasp and body positioning"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Request assistance appropriately"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Instruct the assistant regarding the level and type of assistance needed"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel over irregularities in indoor surfaces (e.g. thresholds, carpeting, tiles)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintain a line of travel indoors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate pull doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate push doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate stairs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Travel safely over various outdoor surfaces (e.g. pavement, grass, gravel)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Stay on a sidewalk traveling in a straight line"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Use access ramps and ramped curb cuts"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Negotiate curbs safely when going up or down"
+				}
+			]
+		}																																																										
+	]
+
+}

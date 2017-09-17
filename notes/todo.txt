@@ -1,0 +1,22 @@
+child skill
+
+_ out of _ attempts
+_ # of verbal prompts
+_ # of physical prompts
+
+or
+
+
+_%
+_ # of verbal prompts
+_ # of physical prompts
+
+
+
+
+=======================
+prevent groups from repeating (new function?)
+format multi responses
+update child verbiage
+add attempts for child questions
+compute COMS scale for child answers

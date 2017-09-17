@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--<html lang="en" manifest="metrolina.appcache">-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="HandHeldFriendly" content="true" />
+        <meta name="mobileoptimized" content="320" />
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />     
+
+        <title>Orientation and Mobility | Metrolina Association for the Blind</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="Metrolina Association for the Blind logo" title="Metrolina Association for the Blind" /></a>
+            <h1>Orientation and Mobility <i class="fa fa-blind"></i></h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#adult-review" class="selected" title="Adult Assessment"><i class="fa fa-male"></i> Adult</a></li>
+                <li><a href="#child-review" title="Child Assessment"><i class="fa fa-child"></i> Child</a></li>
+            </ul>
+        </nav>
+
+        <section id="adult-review" class="panel open" data-assessment="adult">
+            <h1>Adult Assessment</h1>
+            <form>
+                <label for="adult-client-name">Client Name</label>
+                <input type="text" name="adult-client-name" id="adult-client-name" placeholder="First name" />
+
+                <!-- Subjective -->
+                <h2>Subjective</h2>
+                <label for="adult-client-feedback">Client Feedback</label>
+                <textarea name="adult-client-feedback" id="adult-client-feedback" placeholder="e.g. I can no longer see well enough to read large print"></textarea>                
+
+                <!-- Objective -->
+                <h2>Objective</h2>
+                <label for="adult-lesson-goal">Lesson Goal</label>
+                <textarea name="adult-lesson-goal" id="adult-lesson-goal" placeholder="e.g. visual impairment identification training"></textarea>                  
+
+                <!-- Assessment -->
+                <h2>Assessment</h2>
+                <div class="questions"></div>
+
+                <!-- Plan -->
+                <h2>Plan</h2>
+                <label for="adult-upcoming-plan">Upcoming Plan</label>
+                <textarea name="adult-upcoming-plan" id="adult-upcoming-plan" placeholder="e.g. COMS will follow up with the client in several weeks to determine status of the Lions cane request and para transit application"></textarea>     
+            </form>
+        </section>
+
+        <section id="child-review" class="panel" data-assessment="child">
+            <h1>Child Assessment</h1>  
+            <form>
+                <label for="child-client-name">Client Name</label>
+                <input type="text" name="child-client-name" id="child-client-name" placeholder="First name" />
+
+                <!-- Subjective -->
+                <h2>Subjective</h2>
+                <label for="child-client-feedback">Client Feedback</label>
+                <textarea name="child-client-feedback" id="child-client-feedback" placeholder="e.g. I can no longer see well enough to read large print"></textarea>                
+
+                <!-- Objective -->
+                <h2>Objective</h2>
+                <label for="child-lesson-goal">Lesson Goal</label>
+                <textarea name="child-lesson-goal" id="child-lesson-goal" placeholder="e.g. visual impairment identification training"></textarea>                  
+
+                <!-- Assessment -->
+                <h2>Assessment</h2>
+                <div class="questions"></div>
+
+                <!-- Plan -->
+                <h2>Plan</h2>
+                <label for="child-upcoming-plan">Upcoming Plan</label>
+                <textarea name="child-upcoming-plan" id="child-upcoming-plan" placeholder="e.g. COMS will follow up with the client in several weeks to determine status of the Lions cane request and para transit application"></textarea>     
+            </form>                     
+        </section>
+
+        <section class="review">
+            <h2>Review Notes</h2>
+            <textarea id="review"></textarea>
+            <span class="message"><i class="fa fa-check"></i> Copied!</span>
+            <button class="copy" title="Copy text"><i class="fa fa-copy"></i> Copy text</button>
+            <a href="#" title="Generate Review">Generate Review</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2017 Metrolina Association For The Blind.</p>
+            <p>Noteworthy and heartwarming.</p>
+            <p>All Rights Reserved.</p>
+        </footer>
+
+        <script type="text/javascript" src="js/metrolina.js"></script>
+    </body>
+</html>

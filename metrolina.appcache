@@ -1,0 +1,21 @@
+CACHE MANIFEST
+# v1.01 - 08/12/2017
+
+CACHE:
+index.html
+css/font-awesome.css
+css/style.css
+fonts/FontAwesome.otf?v=4.7.0
+fonts/fontawesome-webfont.eot?v=4.7.0
+fonts/fontawesome-webfont.eot?#iefix&v=4.7.0
+fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular
+fonts/fontawesome-webfont.ttf?v=4.7.0
+fonts/fontawesome-webfont.woff?v=4.7.0
+fonts/fontawesome-webfont.woff2?v=4.7.0
+images/logo.png
+js/jquery-3.2.1.min.js
+js/metrolina.js
+js/skills.json
+
+NETWORK:
+*

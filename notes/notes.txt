@@ -1,0 +1,28 @@
+Here’s some feedback/thoughts regarding what we hope can be included in your design:
+ 
+-          We currently use an informal version of the SOAP  (Subjective, Objective, Assessment, and Plan) note format; however, my supervisor would like to see a more formalized style. I can detail this to you over adult bevies.
+-          Comment boxes to write client comments and the plan for the upcoming lesson
+-          Not quite sure on the lingo here, but I’ll go with “collapsible/expandable lists”? Hopefully that makes sense.
+-          Ability to edit the generated paragraph within the program, rather than having to edit it after we copy and paste it into our documentation system.
+-          The option to select either a percentage proficiency (e.g. “demonstrated proper techniques with 80% accuracy) or trial ratio (e.g. “demonstrated proper techniques in 3 out of 4 trials”)
+
+==================================================================================================================================
+
+The NMSBVI rating scale from the assessment is not being used, only the content areas. As we talked about in the meeting, the new system for students will utilize SOAP and will also need to address progress toward IEP goals using percentages ( e.g. “demonstrated the skill 90% of the time”) or trial ratios (e.g. “demonstrated the skill in 3 out of 4 trials”). I am looking forward to discussing this with everyone at the meeting.
+
+==================================================================================================================================
+
+In reviewing of the documents you provided, please make sure that the assessments easily translate into the SOAP notes for both children and adults.  I noticed that the adult assessment has a key that doesn’t use our internal notes standards.  Please find a way to address that before the notes are placed within CMS. For you convenience, I am including the necessary format for notes.
+ 
+S = Subjective (what the client Said - e.g. their reported feelings)
+O = Objective (what you Observed - e.g. what you did. NB: not your subjective interpretation, can be your goals, comparisons, measurements of pt performance)  Needs to be more pt focused
+A = Assessment (the Analysis of Subjective & Objective) What is the patient’s task assistance level, their psychosocial status, the quality of task performance e.g. – the progress related to achievement of goals due to the interventions you have provided?
+P = Plan – What are you going to do next?
+ 
+Independent – Client does not need assistance.
+Supervision – Client is being observed doing task.
+Minimum A – Caregiver/instructor provides between 0 – 25% of effort to complete the task.
+Moderate A – Caregiver/instructor provides between 25 – 50% of the effort to complete the task.
+Maximum A – Caregiver/instructor gives between 50 – 75% of the effort to complete the task.
+Dependent – Caregiver/instructor gives 75 – 100% of the effort to complete the task.
+ 

@@ -1,0 +1,973 @@
+{
+	"client": "adult",
+	"assessment": [
+		{
+			"category": "Human Guide",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated basic human guide technique with a cane"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated basic human guide technique without a cane"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate up and down curbs with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated narrow passage technique with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to change sides with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to change directions with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate doors with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to ascend and descend stairs with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate an escalator with a guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the Hines break technique"
+				}
+			]
+		},
+		{
+			"category": "Basic Skills",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated upper body self-protective techniques"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated lower body self-protective techniques"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated hand trailing"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated squaring off technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated direction taking"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to use systematic search patterns"
+				}						
+			]
+		},
+		{
+			"category": "Orientation",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize compass directions"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize laterality"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize landmarks and clues for orientation"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to localize and use sounds for travel"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrates the ability to utilize a monocular to complete travel related tasks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize self-familiarization techniques"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize indoor numbering systems"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize outdoor numbering systems"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to decipher tactile symbols (e.g. read elevator buttons, distinguish between men and women’s bathroom signage)"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize tactile maps"
+				}, 
+				{
+					"type": "fill",
+					"skill": "Safely executed travel routes",
+					"placeholder": "e.g. in neighborhood, college campus, to doctor’s office, etc."
+				},
+				{
+					"type": "fill",
+					"skill": "Safely reverse traveled routes",
+					"placeholder": "e.g. in neighborhood, college campus, to doctor’s office, etc."
+				}
+			]
+		},
+		{
+			"category": "Long Cane",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to care for and maintenance long cane"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize cane grips"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize appropriate mechanics when using the long cane"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to clear with the long cane before moving"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated diagonal technique"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated diagonal trailing technique"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated trailing with constant contact technique"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated touch and drag technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated shoreline technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated two point touch technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated trailing with two point touch technique"
+				},				
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated three point touch technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated constant contact technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated three point check technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to ascend stairs with the long cane"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to descend stairs with the long cane"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate up curbs"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate down curbs"
+				}
+			]
+		},
+		{
+			"category": "Support Cane",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated basic support cane technique"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize a support cane while using a long cane"
+				},  
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate changes in elevation when using support cane"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate obstacles when using a support cane"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Recommended that client seek assistance from doctor/PT to address balance related concerns"
+				}
+			]
+		},
+		{
+			"category": "Dog Guide",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to command and control the dog guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to maintain orientation while traveling with a dog guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to provide appropriate correction for the dog guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to interact appropriately with the public when traveling with a dog guide"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to provide proper care for the dog"
+				}
+			]
+		},
+		{
+			"category": "Street Crossings",
+			"groups": [
+				{
+					"group": "Residential Street Crossings",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to locate the street edge and/or detectable warning mat at a residential street"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to analyze residential street crossing"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to identify movements of vehicles at a residential street"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to identify traffic threats at a residential street"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to visually scan to locate traffic threats during a residential street crossing"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated use of indenting when needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to display cane in appropriate position while waiting to cross"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated intention to cross a residential street non-verbally"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to establish and maintain alignment at residential street crossing"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to cross in the absence of traffic"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to cross in the presence of traffic"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to cross an uncontrolled street"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to safely navigate around an idling car during a crossing"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to maintain alignment while crossing"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to correct from veering during crossing"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to correct from veering after crossing"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to maintain orientation after crossing"
+						}, 
+						{
+							"type": "fill",
+							"skill": "Demonstrated ability to cross",
+							"placeholder": "e.g. Sunnyside Avenue and Louise Avenue or Louise Avenue"
+						} 
+					]
+				},
+				{
+					"group": "Commercial Street Crossings",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to locate the street edge and/or detectable warning mat at a commercial street"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to analyze commercial street crossing"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to identify movements of vehicles at a commercial street"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to identify traffic threats at a commercial street"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to visually scan to locate traffic threats during a commercial street crossing"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to identify when a commercial crossing is too confusing or unsafe"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated cane in appropriate position while waiting to cross a commercial street"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated intention to cross a commercial street non-verbally"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to establish and maintain alignment at commercial street crossing"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to locate and use pedestrian buttons"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to locate and use APS"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to navigate around an idling car"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to correct from veering during crossing"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to correct from veering after crossing"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to maintain orientation after crossing"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to cross at a complex traffic signal controlled intersection (e.g. multi-lane, actuated)"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to cross an  intersection with a permissive left turn"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to cross an intersection with a protected left turn"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to cross at a roundabout"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to cross a channelized right turn lane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to negotiate an intersection with traffic control island or median strip"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated ability to cross",
+							"placeholder": "e.g. Central Avenue at Louise Avenue and 10th Street or Central Avenue"
+						} 
+					]
+				}
+			]
+		},
+		{
+			"category": "Indoor & Special Environments",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize escalators"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize elevators"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize moving sidewalks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize revolving doors"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate railroad tracks"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate construction areas"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate parking lot entrances"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate business entrances"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to travel in rural environments"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to travel parks/greenways"
+				},
+				{
+					"type": "fill",
+					"skill": "Demonstrated ability to negotiate layout of",
+					"placeholder": "e.g. Northlake mall, doctor’s office, YMCA, etc."
+				}
+			]
+		},
+		{
+			"category": "Community Experiences",
+			"skills": [
+				{
+					"type": "fill",
+					"skill": "Demonstrated the ability to locate entrance of",
+					"placeholder": "e.g. name of business or building"
+				},
+				{
+					"type": "fill",
+					"skill": "Demonstrated the ability to locate exit of",
+					"placeholder": "e.g. name of business or building"
+				},
+				{
+					"type": "fill",
+					"skill": "Demonstrated the ability to negotiate layout of",
+					"placeholder": "e.g. post office, Food Lion, etc."
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to locate customer service"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to solicit assistance as needed"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to independently locate cash register/check out"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to pay for items independently"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated use of a money management system"
+				}
+			]
+		},
+		{
+			"category": "Transportation",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to identify available transportation resources"				
+				}
+			],
+			"groups": [
+				{
+					"group": "Fixed Route Bus",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to plan a trip on the fixed route bus"
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to board the fixed route bus"
+						},	  
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to exit the fixed route bus"
+						},	  
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to solicit assistance as needed for fixed route bus travel"
+						},	 
+						{
+							"type": "fill",
+							"skill": "Demonstrated the ability to negotiate",
+							"placeholder": "e.g. Charlotte Transportation Center, Eastland Community Transportation Center, Southpark Community Transportation Center, Rosa Parks Place Community Transportation Center"
+						}					
+					]
+				},
+				{
+					"group": "Para Transit",
+					"skills": [
+						{
+							"type": "fill",
+							"skill": "Demonstrated understanding of",
+							"placeholder": "e.g. STS para transit policies and guidelines"
+						},	 
+						{
+							"type": "fill",
+							"skill": "Purchased",
+							"placeholder": "e.g. para transit tickets"
+						},	 
+						{
+							"type": "fill",
+							"skill": "Obtained ID for",
+							"placeholder": "e.g. para transit"
+						},	  
+						{
+							"type": "fill",
+							"skill": "Approved for ridership with",
+							"placeholder": "e.g. STS"
+						},	  
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to schedule a para transit ride"
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to utilize para transit to complete a trip"
+						}						
+					]					
+				},
+				{
+					"group": "Other",
+					"skills": [
+						{
+							"type": "fill",
+							"skill": "Arranged transportation using",
+							"placeholder": "e.g. Uber, Lyft, Taxi, GoGoGrandparent"
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated ability to communicate as needed with the driver"
+						} 						
+					]					
+				},
+				{
+					"group": "Rail System",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to plan a trip on a rail system"
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to purchase ticket for a trip on a rail system"
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to familiarize self to",
+							"placeholder": "e.g. East/West, CTC, 485, etc."
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to locate the edge of the station platform"
+						},	  
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to safely board a railway vehicle"
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to safely exit a railway vehicle"
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to solicit assistance as needed"
+						} 						
+					]					
+				},
+				{
+					"group": "Airport",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to solicit assistance as needed"
+						},	 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to identify resources to assist with airport travel"
+						}
+					]					
+				}																
+			]				
+		},					
+		{
+			"category": "Technology",
+			"skills": [
+				{
+					"type": "fill",
+					"skill": "Demonstrated the ability to meet travel needs by utilizing",
+					"placeholder": "e.g. Blindsquare, Trekker Breeze, Sendaro Look Around, The Seeing Eye GPS, etc."
+				},
+				{
+					"type": "fill",
+					"skill": "Demonstrated the ability to utilize",
+					"placeholder": "e.g. Be My Eyes, Tap Tap See, Money Reader, etc."
+				}
+			]
+		},	
+		{
+			"category": "Priority Cases",
+			"groups": [
+				{
+					"group": "Visual Impairment Identification Training",
+					"skills": [
+						{
+							"type": "fill",
+							"skill": "The client’s description of their vision is",
+							"placeholder": "e.g. I can no longer see well enough to read large print. I see the outline or shape of people, but I can’t recognize faces.",
+							"literal": true,
+							"quote": true,
+							"range": false
+						}, 
+						{
+							"type": "fill",
+							"skill": "Currently travels independently",
+							"placeholder": "e.g. home",
+							"range": false
+						}, 
+						{
+							"type": "fill",
+							"skill": "Currently travels with assistance",
+							"placeholder": "e.g. outside of home",
+							"range": false
+						},
+						{
+							"type": "yesno",
+							"skill": "Currently utilizes a guide",
+							"range": false
+						},
+						{
+							"type": "fill",
+							"skill": "Most significant travel challenges are",
+							"placeholder": "e.g. detecting curbs and traveling in crowded environments",
+							"literal": true,
+							"range": false
+						},
+						{
+							"type": "dropdown",
+							"skill": "Cane Measurement",
+							"literal": true,
+							"range": false,
+							"options": [
+								{
+									"id": 0,
+									"option": "40\""
+								},
+								{
+									"id": 1,
+									"option": "42\""
+								},
+								{
+									"id": 2,
+									"option": "44\""
+								},
+								{
+									"id": 3,
+									"option": "46\""
+								},
+								{
+									"id": 4,
+									"option": "48\""
+								},
+								{
+									"id": 5,
+									"option": "50\""
+								},
+								{
+									"id": 6,
+									"option": "52\""
+								},
+								{
+									"id": 7,
+									"option": "54\""
+								},								
+								{
+									"id": 8,
+									"option": "56\""
+								},
+								{
+									"id": 9,
+									"option": "58\""
+								},								
+								{
+									"id": 10,
+									"option": "60\""
+								}
+							]
+						},
+						{
+							"type": "yesno",
+							"skill": "Was interested in non-priority O&M training program",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Is currently on O&M wait list for non-priority training",
+							"range": false
+						},
+						{
+							"type": "multi",
+							"skill": "Recommended O&M training",
+							"literal": true,
+							"range": false,
+							"options": [
+								{
+									"id": 0,
+									"option": "Explained differences between long cane training/priority ID cane training"
+								},
+								{
+									"id": 1,
+									"option": "Explained format of O&M training"
+								},
+								{
+									"id": 2,
+									"option": "Explained O&M wait list"
+								},
+								{
+									"id": 3,
+									"option": "Explained process of requesting non-priority O&M training from the Case Manager"
+								},
+								{
+									"id": 4,
+									"option": "Introduced NC Lions cane"
+								},
+								{
+									"id": 5,
+									"option": "Introduced ID cane"
+								}, 
+								{
+									"id": 6,
+									"option": "Introduced red and white support cane"
+								},
+								{
+									"id": 7,
+									"option": "Introduced long canes sold at MAB"
+								}		
+							]
+						},		
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to grip the cane"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to display of the cane for identification using diagonal technique"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to display the cane for identification"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to utilize human guide technique without the cane"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to utilize human guide technique with the cane displayed for identification"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "COMS will follow up",
+							"literal": true,
+							"range": false
+						}			
+					]
+				},
+				{
+					"group": "Para Transit",
+					"skills": [
+						{
+							"type": "fill",
+							"skill": "Completed application for",
+							"placeholder": "e.g. STS para transit"
+						},
+						{
+							"type": "fill",
+							"skill": "COMS submitted the completed para transit application to",
+							"placeholder": "e.g. para transit organization",
+							"literal": true,
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated understanding of para transit policies"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated awareness of para transit ticket sales locations"
+						},
+						{
+							"type": "checkbox",
+							"skill": "COMS will follow up",
+							"literal": true,
+							"range": false
+						} 						
+					]
+				}
+			]
+		},	
+		{
+			"category": "Mini Center",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Attended a Mini Center session that provided an introduction to Orientation and Mobility training at MAB and information on available transportation options",
+					"range": false
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated understanding of the scope, purpose, and format of O&M services at MAB"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated understanding of how to request O&M training through MAB Case Manager"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated understanding of how the O&M wait list functions"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated understanding of available transportation options and received an MAB Transportation Resource Packet"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Received an introduction to the types and purposes of various canes, including the NC Lions cane, ID cane, red and white support cane, and long canes available for purchase at MAB",
+					"range": false
+				},
+				{
+					"type": "multi",
+					"skill": "Other topics discussed included",
+					"literal": true,
+					"range": false,
+					"options": [
+						{
+							"id": 0,
+							"option": "NoIR sunglasses"
+						},
+					    {
+					    	"id": 1,
+							"option": "Dog guides"
+						},
+					    {
+					    	"id": 2,
+							"option": "Orientation techniques"
+						},
+					    {
+					    	"id": 3,
+							"option": "Adjustment to using a mobility device and being identified as visually impaired"
+						}, 
+					    {
+					    	"id": 4,
+							"option": "Street crossings"
+						},
+					    {
+					    	"id": 5,
+							"option": "The built environment (e.g. intersections, sidewalks)"
+						}, 
+					    {
+					    	"id": 6,
+							"option": "Calling 311 to request maintenance needed within the community"
+						}, 
+					    {
+					    	"id": 7,
+							"option": "Marking support canes and walkers with reflective tape"
+						},
+					    {
+					    	"id": 8,
+							"option": "Self-advocacy skills"
+						}, 
+					    {
+					    	"id": 9,
+							"option": "Family sensitivity training"
+						},
+					    {
+					    	"id": 10,
+							"option": "Human guide"
+						},
+					    {
+					    	"id": 11,
+							"option": "Self-protective techniques"
+						}
+					]
+				},	
+				{
+					"type": "checkbox",
+					"skill": "Expressed interest in O&M training and will contact case manager to be placed on the O&M wait list",
+					"range": false
+				},
+				{
+					"type": "checkbox",
+					"skill": "Did not express interest in O&M training, but demonstrated awareness of how to request services if circumstances change",
+					"range": false
+				} 
+			]
+		}																																																									
+	]
+
+}
