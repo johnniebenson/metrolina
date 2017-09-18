@@ -17,3 +17,4 @@ _ # of physical prompts
 =======================
 add attempts for child questions
 compute COMS scale for child answers
+fix review box after editing review manually

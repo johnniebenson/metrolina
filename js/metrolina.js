@@ -180,7 +180,11 @@ function buildInput(skill, client) {
 
 		case "yesno":
 			extra_input = '<input type="radio" name=q' + q + ' value="yes" /> Yes <input type="radio" name="q' + q + '"" value="no" /> No';
-			break;						
+			break;		
+
+		case "color":
+			extra_input = '<div class="circle" style="background:' + skill.skill.toLowerCase() + ';"></div>';
+			break;					
 
 		default:
 			break;

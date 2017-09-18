@@ -2426,51 +2426,51 @@
 					"group": "Demonstrate the ability to identify the following colors and shapes by naming, pointing to, or matching:",
 					"skills": [
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Red"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Orange"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Blue"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Black"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Yellow"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "White"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Green"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Purple"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Brown"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Silver"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Gold"
 						},
 						{
-							"type": "checkbox",
+							"type": "color",
 							"skill": "Pink"
 						},
 						{
