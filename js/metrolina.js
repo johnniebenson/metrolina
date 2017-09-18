@@ -89,19 +89,12 @@ function buildQuestions(data) {
 		if(value.groups != undefined && value.skills != undefined) {
 			//category has both skills and groups...build skills first then groups
 			buildInputs(value.skills, client);
-
-			$.each(value.groups, function(k, v) {
-				$("#" + client + "-review .questions .question:last-child").append('<h4>' + v.group + '</h4>');
-				buildInputs(v.skills, client);
-			});					
+			buildGroups(value.groups, client);				
 		}
 		else {
 			if (value.groups != undefined) {
 				//category only has groups
-				$.each(value.groups, function(k, v) {
-					$("#" + client + "-review .questions .question:last-child").append('<h4>' + v.group + '</h4>');
-					buildInputs(v.skills, client);
-				});
+				buildGroups(value.groups, client);
 			}
 			else {
 				//category only has skills
@@ -148,6 +141,13 @@ function showConfirmation() {
 	}, 3000);	
 }
 
+function buildGroups(groups, client) {
+	$.each(groups, function(k, v) {
+		$("#" + client + "-review .questions .question:last-child").append('<h4>' + v.group + '</h4>');
+		buildInputs(v.skills, client);
+	});		
+}
+
 function buildInputs(skills, client) {
 	$("#" + client + "-review .questions .question:last-child").append('<ul></ul>');
 	$.each(skills, function(k, v) {
@@ -187,7 +187,7 @@ function buildInput(skill, client) {
 	}
 
 	if (isRange == false) {
-		range = '';
+		range = "";
 	}
 
 	if (client == "child") {
@@ -200,7 +200,7 @@ function buildInput(skill, client) {
 	skill.range == undefined ? isRange = true : isRange = skill.range;
 
 	//build list item to be added
-	var assessment_list = $("#" + client + "-review .questions .question:last-child ul:not(.multi-list)"),
+	var assessment_list = $("#" + client + "-review .questions .question:last-child ul:last-child:not(.multi-list)"),
 	 	assessment_list_item = '<li data-input-type="' + skill.type + '" data-literal="' + literal + '" data-quote="' + quote + '" data-range="' + isRange + '">' + checkbox + ' ' + label + ' ' + extra_input + ' ' + range + '</li>';
 
 	assessment_list.append(assessment_list_item);

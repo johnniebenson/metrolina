@@ -426,7 +426,7 @@
 							"skill": "Demonstrated the ability to negotiate an intersection with traffic control island or median strip"
 						},
 						{
-							"type": "checkbox",
+							"type": "fill",
 							"skill": "Demonstrated ability to cross",
 							"placeholder": "e.g. Central Avenue at Louise Avenue and 10th Street or Central Avenue"
 						} 
@@ -618,7 +618,7 @@
 							"skill": "Demonstrated the ability to purchase ticket for a trip on a rail system"
 						},	 
 						{
-							"type": "checkbox",
+							"type": "fill",
 							"skill": "Demonstrated the ability to familiarize self to",
 							"placeholder": "e.g. East/West, CTC, 485, etc."
 						},	 
