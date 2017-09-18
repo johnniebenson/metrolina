@@ -192,7 +192,7 @@ function buildInput(skill, client) {
 
 	if (client == "child") {
 		range = "";
-		extra_input += ' <label class="attempts" for="a' + q + '"># of attempts</label> <input type="number" id="a' + q + '" name="a' + q + '"" /> out of <input type="number" id="aa' + q + '" name="aa' + q + '"" /> with a proficiency of <input type="number" id="aaa' + q + '" name="aaa' + q + '"" />%';
+		extra_input += ' <div class="attempts"># of attempts <input type="number" id="a' + q + '" name="a' + q + '"" /> out of <input type="number" id="aa' + q + '" name="aa' + q + '"" /> with a proficiency of <input type="number" id="aaa' + q + '" name="aaa' + q + '"" />%</div>';
 	}
 
 	skill.literal == undefined ? literal = false : literal = skill.literal;
