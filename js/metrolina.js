@@ -242,7 +242,7 @@ function buildReview(client) {
 
 	//get checked assessment questions and build appropriate response
 	$(".panel.open .question li.selected").each(function() {
-		var checkbox = $(this).find("input[type=checkbox]:first-child"),
+		var checkbox = $(this).find("input[type=checkbox]"),
 			label = $(this).find("label").text(),
 			range = getSkillLevel($(this).find("input[type=range]").val()).toLowerCase(),
 			input_type = $(this).data("input-type"),
@@ -269,23 +269,50 @@ function buildReview(client) {
 			break;
 
 			case "multi":
-				input_label += "test";
+				input_label = $(this).find("label:first").text() + ": ";
+				var total_multi = $(this).find(".multi-list li.selected").length,
+					m = 1;
+
+				$(this).find(".multi-list li").each(function() {
+					if ($(this).hasClass("selected")) {
+						if (total_multi > 1) {
+							if (m == total_multi) {
+								input_label += " and " + $(this).find("label").text();
+							}
+							else {
+								if (m == total_multi - 1) {
+									input_label += $(this).find("label").text();
+								}
+								else {
+									input_label += $(this).find("label").text() + ", ";
+								}
+							}
+						}
+						else {
+							input_label += $(this).find("label").text();
+						}
+						m++;
+					}
+				});
+
 			break;
 
 			default:
 			break;
 		}
 
-		if (is_range) {
-			if (range == "independently" || range == "dependently") {
-				review += input_label + " " + range + ".  ";
+		if (!$(this).parent().hasClass("multi-list")) {
+			if (is_range) {
+				if (range == "independently" || range == "dependently") {
+					review += input_label + " " + range + ".  ";
+				}
+				else {
+					review += input_label + " with " + range + ".  ";
+				}		
 			}
 			else {
-				review += input_label + " with " + range + ".  ";
-			}		
-		}
-		else {
-			review += input_label + ".  ";
+				review += input_label + ".  ";
+			}			
 		}
 	});
 
