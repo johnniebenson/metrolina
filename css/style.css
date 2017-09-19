@@ -242,12 +242,52 @@ section {
 	max-width:400px;
 }
 
-.questions .question .attempts {
+.questions .question .rating {
 	display:none;
 }
 
-.questions .question .selected .attempts {
+.questions .question .selected .rating {
 	display:block;
+}
+
+.questions .question .rating a {
+	color:#222;
+	text-decoration:none;	
+	margin:0 2px;
+	font-size:14px;
+	padding:5px;
+	background:#ddd;
+	border-radius:3px;
+}
+
+.questions .question .rating a:hover {
+	background:#ccc;
+}
+
+.questions .question .rating a:active {
+	background:#bbb;
+}
+
+.questions .question .rating a.on {
+	color:#fff;
+	background:#0054a4;
+	cursor:default;
+}
+
+.questions .question .rating a i.fa {
+	font-size:11px;
+}
+
+.questions .question .rating .rating-panel {
+	display:none;
+}
+
+.questions .question .rating .rating-panel.active {
+	display:inline-block;
+}
+
+.questions .question .rating .score {
+	margin:10px 0 0 0;
 }
 
 .questions .question .circle {

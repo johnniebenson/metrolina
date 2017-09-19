@@ -37,6 +37,15 @@ $(function() {
 		$(this).next("span").text(getSkillLevel($(this).val()));
 	});
 
+	//show child score panel
+	$(".questions").on("click", ".question .rating a", function(e) {
+		e.preventDefault();
+		$(this).addClass("on").siblings().removeClass("on");
+		var target = "." + $(this).attr("href").slice(1);
+		$(this).parent().find(".rating-panel").removeClass("active");
+		$(this).parent().find(target).addClass("active");
+	});
+
 	//build review
 	$(".review a").on("click", function(e) {
 		e.preventDefault();
@@ -196,7 +205,14 @@ function buildInput(skill, client) {
 
 	if (client == "child") {
 		range = "";
-		extra_input += ' <div class="attempts"># of attempts <input type="number" id="a' + q + '" name="a' + q + '"" /> out of <input type="number" id="aa' + q + '" name="aa' + q + '"" /> with a proficiency of <input type="number" id="aaa' + q + '" name="aaa' + q + '"" />%</div>';
+
+		//create new inputs
+		var trials = '<div class="rating-panel trials active">completed <input type="number" id="a' + q + '" name="a' + q + '"" /> out of <input type="number" id="aa' + q + '" name="aa' + q + '"" /> trials</div>',
+			percentage = '<div class="rating-panel percentage">scored <input type="number" id="aaa' + q + '" name="aaa' + q + '"" /> %</div>',
+			prompts = '<div class="prompts"> Verbal Prompts <input type="number" id="aaaa' + q + '" name="aaaa' + q + '" /> Physical Prompts <input type="number" id="aaaaa' + q + '" name="aaaaa' + q + '" /></div>',
+			score = '<div class="score">The client ' + trials + percentage + '</div>';
+
+		extra_input += '<div class="rating"><a href="#trials" class="on"><i class="fa fa-cubes"></i> Trials</a><a href="#percentage"><i class="fa fa-percent"></i> Percentage</a>' + score + prompts + '</div>';
 	}
 
 	skill.literal == undefined ? literal = false : literal = skill.literal;
