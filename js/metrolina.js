@@ -207,9 +207,9 @@ function buildInput(skill, client) {
 		range = "";
 
 		//create new inputs
-		var trials = '<div class="rating-panel trials active">completed <input type="number" id="a' + q + '" name="a' + q + '"" /> out of <input type="number" id="aa' + q + '" name="aa' + q + '"" /> trials</div>',
+		var trials = '<div class="rating-panel trials active">completed <input class="completed" type="number" id="a' + q + '" name="a' + q + '"" /> out of <input class="attempts" type="number" id="aa' + q + '" name="aa' + q + '"" /> trials</div>',
 			percentage = '<div class="rating-panel percentage">scored <input type="number" id="aaa' + q + '" name="aaa' + q + '"" /> %</div>',
-			prompts = '<div class="prompts"> Verbal Prompts <input type="number" id="aaaa' + q + '" name="aaaa' + q + '" /> Physical Prompts <input type="number" id="aaaaa' + q + '" name="aaaaa' + q + '" /></div>',
+			prompts = '<div class="prompts"> Verbal Prompts <input class="verbal" type="number" id="aaaa' + q + '" name="aaaa' + q + '" /> Physical Prompts <input class="physical" type="number" id="aaaaa' + q + '" name="aaaaa' + q + '" /></div>',
 			score = '<div class="score">The client ' + trials + percentage + '</div>';
 
 		extra_input += '<div class="rating"><a href="#trials" class="on"><i class="fa fa-cubes"></i> Trials</a><a href="#percentage"><i class="fa fa-percent"></i> Percentage</a>' + score + prompts + '</div>';
@@ -314,14 +314,14 @@ function buildReview(client) {
 						m++;
 					}
 				});
-
 			break;
 
 			default:
 			break;
 		}
 
-		if (!$(this).parent().hasClass("multi-list")) {
+		//adult review
+		if (!$(this).parent().hasClass("multi-list") && client == "adult") {
 			if (is_range) {
 				if (range == "independently" || range == "dependently") {
 					review += input_label + " " + range + ".  ";
@@ -333,6 +333,18 @@ function buildReview(client) {
 			else {
 				review += input_label + ".  ";
 			}			
+		}
+
+		//child review
+		if (client == "child") {
+			//get child ratings
+			var verbal_prompts = $(this).find(".prompts .verbal").val(),
+				physical_prompts = $(this).find(".prompts .physical").val(),
+				trial_attempts = $(this).find(".trials .attempts").val(),
+				trial_completions = $(this).find(".trials .completed").val(),
+				percentage = $(this).find(".percentage input").val();
+
+			review += input_label + " " + trial_completions + " out of " + trial_attempts + " times with " + verbal_prompts + " verbal prompts and " + physical_prompts + " physical prompts. ";
 		}
 	});
 
