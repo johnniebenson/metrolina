@@ -509,6 +509,11 @@ footer p {
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 800px) {
+	input[type="text"],
+	textarea {
+		max-width:95%;
+	}
+
 	header {
 		padding:25px 20px;
 		text-align:center;
@@ -528,6 +533,11 @@ footer p {
 
 	nav {
 		padding:20px;
+	}
+
+	.questions .question input[type="text"] {
+		width:92%;
+		min-width:auto;
 	}
 
 	.panel {
