@@ -168,7 +168,7 @@ function buildInput(skill, client) {
 	q++;
 	var checkbox = '<input type="checkbox" id="q' + q + '" name="q' + q + '" />',
 		label = '<label for="q' + q + '">' + skill.skill + '</label>',
-		range = '<div class="range"><input type="range" id="range' + q + '" name="range' + q + '" min="0" max="4" value="2" step="1" /><span>Moderate Supervision</span></div>',
+		range = '<div class="range"><input type="range" id="range' + q + '" name="range' + q + '" min="0" max="5" value="3" step="1" /><span>Moderate Assistance</span></div>',
 		extra_input = '',
 		literal = '',
 		quote = '',
@@ -338,13 +338,49 @@ function buildReview(client) {
 		//child review
 		if (client == "child") {
 			//get child ratings
-			var verbal_prompts = $(this).find(".prompts .verbal").val(),
+			var rating_type = $(this).find("a.on").attr("href").slice(1),
+				verbal_prompts = $(this).find(".prompts .verbal").val(),
 				physical_prompts = $(this).find(".prompts .physical").val(),
-				trial_attempts = $(this).find(".trials .attempts").val(),
-				trial_completions = $(this).find(".trials .completed").val(),
-				percentage = $(this).find(".percentage input").val();
+				rating = "",
+				prompts = "",
+				verbal_prompt_text = "",
+				physical_prompt_text = "",
+				soap_percent = "",
+				soap_prompts = verbal_prompts + physical_prompts,
+				soap_score = "";
 
-			review += input_label + " " + trial_completions + " out of " + trial_attempts + " times with " + verbal_prompts + " verbal prompts and " + physical_prompts + " physical prompts. ";
+			//get percentage or trials	
+			if (rating_type == "percentage") {
+				rating = "with " + $(this).find(".percentage input").val() + "% accuracy";
+				soap_percent = $(this).find(".percentage input").val() * .01;
+			}	
+			else {
+				var trial_attempts = $(this).find(".trials .attempts").val(),
+					trial_completions = $(this).find(".trials .completed").val(),
+					rating = "in " + trial_completions + " out of " + trial_attempts + " trials";
+
+				soap_percent = trial_completions / trial_attempts;	
+			}
+
+			//format prompts
+			if (verbal_prompts > 0 && physical_prompts > 0) {
+				prompts = " after " + verbal_prompts + " verbal " + formatPrompt(verbal_prompts) + " and " + physical_prompts + " physical " + formatPrompt(physical_prompts);
+			}
+			else {
+				if (verbal_prompts > 0) {
+					prompts = " after " + verbal_prompts + " verbal " + formatPrompt(verbal_prompts);
+				}
+				else {
+					if (physical_prompts > 0) {
+						prompts = " after " + physical_prompts + " physical " + formatPrompt(physical_prompts);
+					}
+				}
+			}
+
+			soap_score = soap_percent / soap_prompts;
+			var soap_rating = getSoapRating(soap_score);
+
+			review += input_label + " " + rating + prompts + " (" + soap_rating + "). ";
 		}
 	});
 
@@ -383,18 +419,22 @@ function getSkillLevel(sliderValue) {
 			break;
 
 		case 1:
-			skill_level = "Minimum Supervision";
-			break;
+			skill_level = "Supervision";
+			break;			
 
 		case 2:
-			skill_level = "Moderate Supervision";
+			skill_level = "Minimum Assistance";
 			break;
 
 		case 3:
-			skill_level = "Maximum Supervision";
-			break;	
+			skill_level = "Moderate Assistance";
+			break;
 
 		case 4:
+			skill_level = "Maximum Assistance";
+			break;	
+
+		case 5:
 			skill_level = "Dependently";
 			break;														
 
@@ -403,6 +443,40 @@ function getSkillLevel(sliderValue) {
 	}
 
 	return skill_level;
+}
+
+function getSoapRating(percent) {
+	var soap_level = 0;
+
+	switch(true) {
+		case percent >= .45:
+			soap_level = 0;
+		break;
+
+		case percent >= .26 && percent < .45:
+			soap_level = 1;
+		break;
+
+		case percent >= .17 && percent < .26:
+			soap_level = 2;
+		break;
+
+		case percent >= .10 && percent < .17:
+			soap_level = 3;
+		break;
+
+		case percent >= .05 && percent < .10:
+			soap_level = 4;
+		break;								
+
+		case percent < .05:
+			soap_level = 5;
+
+		default:
+		break;
+	}
+
+	return getSkillLevel(soap_level);
 }
 
 function buildDropdown(options) {
@@ -427,4 +501,10 @@ function buildMulti(options) {
 function undercase(string) {
 	var stringLower = string.charAt(0).toLowerCase() + string.substr(1);
 	return stringLower;
+}
+
+function formatPrompt(prompts) {
+	var prompt_text = "";
+	prompts == 1 ? prompt_text = "prompt" : prompt_text = "prompts";
+	return prompt_text;
 }

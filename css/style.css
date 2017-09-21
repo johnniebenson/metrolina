@@ -256,7 +256,7 @@ section {
 	text-decoration:none;	
 	margin:0 2px;
 	font-size:14px;
-	padding:10px;
+	padding:5px 15px;
 	background:#ddd;
 	border-radius:3px;
 	display:inline-block;
@@ -451,6 +451,10 @@ input[type=range]:focus::-ms-fill-upper {
 
 .review a:active {
 	background:#003f7a;
+}
+
+.review a i.fa {
+	margin:0 5px 0 0;
 }
 
 /* Footer */
