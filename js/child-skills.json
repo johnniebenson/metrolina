@@ -119,8 +119,7 @@
 				},
 				{
 					"type": "checkbox",
-					"literal": true,
-					"skill": "Escalator skills"
+					"skill": "Demonstrated escalator skills"
 				},
 				{
 					"type": "checkbox",
@@ -638,19 +637,19 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "An \"I\" shape (a straight line from corner to corner)"
+							"skill": "Executed an \"I\" shape (a straight line from corner to corner)"
 						},
 						{
 							"type": "checkbox",
-							"skill": "An \"L\" shape"
+							"skill": "Executed an \"L\" shape"
 						},
 						{
 							"type": "checkbox",
-							"skill": "A \"U\" shape"
+							"skill": "Executed a \"U\" shape"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Around the block"
+							"skill": "Went around the block"
 						}						
 					]
 				},
@@ -659,23 +658,23 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "An \"I\" route (a straight linear route of consecutive blocks)"
+							"skill": "Executed an \"I\" route (a straight linear route of consecutive blocks)"
 						},
 						{
 							"type": "checkbox",
-							"skill": "An \"L\" shaped route of consecutive blocks"
+							"skill": "Executed an \"L\" shaped route of consecutive blocks"
 						},
 						{
 							"type": "checkbox",
-							"skill": "A \"U\" shaped route around a series of blocks"
+							"skill": "Executed a \"U\" shaped route around a series of blocks"
 						},
 						{
 							"type": "checkbox",
-							"skill": "A \"Z\" route (a zig-zag route consisting of a series of blocks)"
+							"skill": "Executed a \"Z\" route (a zig-zag route consisting of a series of blocks)"
 						},
 						{
 							"type": "checkbox",
-							"skill": "A rectangular route (using multiple blocks)"
+							"skill": "Executed a rectangular route (using multiple blocks)"
 						}						
 					]
 				}				
@@ -808,31 +807,31 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "+ intersection"
+							"skill": "Determined a \"+\" intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "T intersection"
+							"skill": "Determined a \"T\" intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Y intersection"
+							"skill": "Determined a \"Y\" intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Offset intersection"
+							"skill": "Determined an offset intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Two way by two way traffic flow"
+							"skill": "Determined two way by two way traffic flow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "One way by two way traffic flow"
+							"skill": "Determined one way by two way traffic flow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "One way by one way traffic flow"
+							"skill": "Determined one way by one way traffic flow"
 						}						
 					]
 				},
@@ -841,23 +840,23 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "2 way stop intersections"
+							"skill": "Identified a 2 way stop intersections"
 						},
 						{
 							"type": "checkbox",
-							"skill": "3 way stop intersections"
+							"skill": "Identified a 3 way stop intersections"
 						},
 						{
 							"type": "checkbox",
-							"skill": "4 way stop intersections"
+							"skill": "Identified a 4 way stop intersections"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Roundabout"
+							"skill": "Identified a roundabout"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Uncontrolled intersections"
+							"skill": "Identified uncontrolled intersections"
 						}						
 					]
 				}								
@@ -1992,31 +1991,31 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "Nose"
+							"skill": "Identified Nose"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Mouth"
+							"skill": "Identified Mouth"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Chin"
+							"skill": "Identified Chin"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Eyes"
+							"skill": "Identified Eyes"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Cheeks"
+							"skill": "Identified Cheeks"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Ears"
+							"skill": "Identified Ears"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Forehead"
+							"skill": "Identified Forehead"
 						}		
 					]
 				},
@@ -2025,135 +2024,135 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "Hair"
+							"skill": "Identified Hair"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Head"
+							"skill": "Identified Head"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Trunk/ Torso"
+							"skill": "Identified Trunk/Torso"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Chest"
+							"skill": "Identified Chest"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Back"
+							"skill": "Identified Back"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Neck"
+							"skill": "Identified Neck"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Shoulder"
+							"skill": "Identified Shoulder"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Arm"
+							"skill": "Identified Arm"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Forearm"
+							"skill": "Identified Forearm"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Upper Arm"
+							"skill": "Identified Upper Arm"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Wrist"
+							"skill": "Identified Wrist"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Elbow"
+							"skill": "Identified Elbow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Hand"
+							"skill": "Identified Hand"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Back of Hand"
+							"skill": "Identified Back of Hand"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Palm of Hand"
+							"skill": "Identified Palm of Hand"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Thumb"
+							"skill": "Identified Thumb"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Finger"
+							"skill": "Identified Finger"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Stomach"
+							"skill": "Identified Stomach"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Waist"
+							"skill": "Identified Waist"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Hip"
+							"skill": "Identified Hip"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Leg"
+							"skill": "Identified Leg"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Thigh"
+							"skill": "Identified Thigh"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Knee"
+							"skill": "Identified Knee"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Calf"
+							"skill": "Identified Calf"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Ankle"
+							"skill": "Identified Ankle"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Foot"
+							"skill": "Identified Foot"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Toe"
+							"skill": "Identified Toe"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Heel"
+							"skill": "Identified Heel"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Shin"
+							"skill": "Identified Shin"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Buttocks"
+							"skill": "Identified Buttocks"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Fingernails"
+							"skill": "Identified Fingernails"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Toenails"
+							"skill": "Identified Toenails"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Knuckles"
+							"skill": "Identified Knuckles"
 						}
 					]
 				},
@@ -2162,15 +2161,15 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "Straighten arm"
+							"skill": "Straightened arm"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Bend arm at the elbow"
+							"skill": "Bent arm at the elbow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Lift arm high in the air"
+							"skill": "Lifted arm high in the air"
 						},
 						{
 							"type": "checkbox",
@@ -2186,23 +2185,23 @@
 						},
 						{
 							"type": "checkbox",
-							"skill": "Straighten leg, in front"
+							"skill": "Straightened leg, in front"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Bend leg at the knee"
+							"skill": "Bent leg at the knee"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Point and flex feet"
+							"skill": "Pointed and flexed feet"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Cross midline"
+							"skill": "Crossed midline"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Place palms up or down"
+							"skill": "Placed palms up or down"
 						}
 					]
 				},
@@ -2211,35 +2210,35 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "Bend body forward"
+							"skill": "Bent body forward"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Bend body backward"
+							"skill": "Bent body backward"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Bend body to the side"
+							"skill": "Bent body to the side"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Squat down, bending at knees"
+							"skill": "Squatted down, bending at knees"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Stand up on tiptoes"
+							"skill": "Stood up on tiptoes"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Quantitative & Directional/Positional"
+							"skill": "Demonstrated Quantitative & Directional/Positional"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Jump"
+							"skill": "Jumped"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Move to the side by stepping sideways"
+							"skill": "Moved to the side by stepping sideways"
 						}
 					]
 				},
@@ -2248,47 +2247,47 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "Front of body"
+							"skill": "Identified front of body"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Back of body"
+							"skill": "Identified back of body"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Top of head"
+							"skill": "Identified top of head"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Side of body"
+							"skill": "Identified side of body"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Bottom of feet"
+							"skill": "Identified bottom of feet"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Place objects in relation to body planes"
+							"skill": "Placed objects in relation to body planes"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Front of body"
+							"skill": "Identified front of body"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Back of body"
+							"skill": "Identified back of body"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Top of head"
+							"skill": "Identified top of head"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Side of body"
+							"skill": "Identified side of body"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Under foot"
+							"skill": "Identified under foot"
 						}
 					]
 				}																				
@@ -2299,123 +2298,123 @@
 			"skills": [
 				{
 					"type": "checkbox",
-					"skill": "Big/Little"
+					"skill": "Understood Big/Little"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Short/long"
+					"skill": "Understood Short/long"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Narrow/wide"
+					"skill": "Understood Narrow/wide"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Deep/shallow"
+					"skill": "Understood Deep/shallow"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Tall/short"
+					"skill": "Understood Tall/short"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Inch"
+					"skill": "Understood Inch"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Foot"
+					"skill": "Understood Foot"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Yard"
+					"skill": "Understood Yard"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Mile"
+					"skill": "Understood Mile"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Centimeter"
+					"skill": "Understood Centimeter"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Meter"
+					"skill": "Understood Meter"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Kilometer"
+					"skill": "Understood Kilometer"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Up/down"
+					"skill": "Understood Up/down"
 				},
 				{
 					"type": "checkbox",
-					"skill": "In/out"
+					"skill": "Understood In/out"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Top/bottom"
+					"skill": "Understood Top/bottom"
 				},
 				{
 					"type": "checkbox",
-					"skill": "In front/in back/behind"
+					"skill": "Understood In front/in back/behind"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Over/under"
+					"skill": "Understood Over/under"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Near/far"
+					"skill": "Understood Near/far"
 				},
 				{
 					"type": "checkbox",
-					"skill": "High/low"
+					"skill": "Understood High/low"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Beginning/end"
+					"skill": "Understood Beginning/end"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Next to (beside)"
+					"skill": "Understood Next to (beside)"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Between"
+					"skill": "Understood Between"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Center (middle)/corner/side"
+					"skill": "Understood Center (middle)/corner/side"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Straight/crooked"
+					"skill": "Understood Straight/crooked"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Through/around"
+					"skill": "Understood Through/around"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Open/closed"
+					"skill": "Understood Open/closed"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Forward/backward"
+					"skill": "Understood Forward/backward"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Toward/away"
+					"skill": "Understood Toward/away"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Parallel/perpendicular"
+					"skill": "Understood Parallel/perpendicular"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Diagonal"
+					"skill": "Understood Diagonal"
 				}
 			]
 		},
@@ -2427,111 +2426,111 @@
 					"skills": [
 						{
 							"type": "color",
-							"skill": "Red"
+							"skill": "Identified Red"
 						},
 						{
 							"type": "color",
-							"skill": "Orange"
+							"skill": "Identified Orange"
 						},
 						{
 							"type": "color",
-							"skill": "Blue"
+							"skill": "Identified Blue"
 						},
 						{
 							"type": "color",
-							"skill": "Black"
+							"skill": "Identified Black"
 						},
 						{
 							"type": "color",
-							"skill": "Yellow"
+							"skill": "Identified Yellow"
 						},
 						{
 							"type": "color",
-							"skill": "White"
+							"skill": "Identified White"
 						},
 						{
 							"type": "color",
-							"skill": "Green"
+							"skill": "Identified Green"
 						},
 						{
 							"type": "color",
-							"skill": "Purple"
+							"skill": "Identified Purple"
 						},
 						{
 							"type": "color",
-							"skill": "Brown"
+							"skill": "Identified Brown"
 						},
 						{
 							"type": "color",
-							"skill": "Silver"
+							"skill": "Identified Silver"
 						},
 						{
 							"type": "color",
-							"skill": "Gold"
+							"skill": "Identified Gold"
 						},
 						{
 							"type": "color",
-							"skill": "Pink"
+							"skill": "Identified Pink"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Circle"
+							"skill": "Identified Circle"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Square"
+							"skill": "Identified Square"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Triangle"
+							"skill": "Identified Triangle"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Rectangle"
+							"skill": "Identified Rectangle"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Oval"
+							"skill": "Identified Oval"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Diamond"
+							"skill": "Identified Diamond"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Pentagon"
+							"skill": "Identified Pentagon"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Hexagon"
+							"skill": "Identified Hexagon"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Octagon"
+							"skill": "Identified Octagon"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Cube"
+							"skill": "Identified Cube"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Sphere"
+							"skill": "Identified Sphere"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Cylinder"
+							"skill": "Identified Cylinder"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Pyramid"
+							"skill": "Identified Pyramid"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Cone"
+							"skill": "Identified Cone"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Rectangular prism"
+							"skill": "Identified Rectangular prism"
 						}					
 					]
 				}

@@ -14,7 +14,7 @@ $(function() {
 		//reset views
 		$(".panel").removeClass("open").hide();
 		$("nav ul li a").removeClass("selected");
-		$("#review").text("");
+		$("#review").val("");
 
 		//update views
 		$(target).show().addClass("open");
@@ -231,7 +231,7 @@ function buildReview(client) {
 		review = "";
 
 	//reset
-	reviewBox.text("");
+	reviewBox.val("");
 
 	//get completed fields
 	var clientName = $("#" + client + "-client-name").val(),
@@ -351,7 +351,7 @@ function buildReview(client) {
 
 			//get percentage or trials	
 			if (rating_type == "percentage") {
-				rating = "with " + $(this).find(".percentage input").val() + "% accuracy";
+				rating = "with a " + $(this).find(".percentage input").val() + "% accuracy";
 				soap_percent = $(this).find(".percentage input").val() * .01;
 			}	
 			else {
@@ -389,7 +389,7 @@ function buildReview(client) {
 	}		
 
 	//output
-	reviewBox.text($.trim(review));
+	reviewBox.val($.trim(review));
 }
 
 function getDate() {

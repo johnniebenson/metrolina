@@ -288,8 +288,20 @@ section {
 	display:inline-block;
 }
 
+.questions .question .rating .rating-panel input[type="number"] {
+	margin:0 5px 20px 5px;
+}
+
 .questions .question .rating .score {
-	margin:10px 0 0 0;
+	margin:20px 0 0 0;
+}
+
+.questions .question .rating .prompts .verbal {
+	margin:0 20px 20px 5px;
+}
+
+.questions .question .rating .prompts .physical {
+	margin:0 0 20px 5px;
 }
 
 .questions .question .circle {

@@ -1,20 +1,4 @@
-child skill
-
-_ out of _ attempts
-_ # of verbal prompts
-_ # of physical prompts
-
-or
-
-
-_%
-_ # of verbal prompts
-_ # of physical prompts
-
-
-
-
 =======================
-compute COMS scale for child answers
-fix review box after editing review manually
 ensure appcache has all files
+mobile responsiveness
+fix child questions for indentification
