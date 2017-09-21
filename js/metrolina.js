@@ -192,7 +192,8 @@ function buildInput(skill, client) {
 			break;		
 
 		case "color":
-			extra_input = '<div class="circle" style="background:' + skill.skill.toLowerCase() + ';"></div>';
+			var color = skill.skill.toLowerCase().slice(11);
+			extra_input = '<div class="circle" style="background:' + color + ';"></div>';
 			break;					
 
 		default:
