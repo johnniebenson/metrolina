@@ -304,6 +304,10 @@ section {
 	margin:0 0 20px 5px;
 }
 
+.questions .question .rating .prompts .label {
+	font-size:12px;
+}
+
 .questions .question .circle {
 	width:24px;
 	height:24px;
@@ -552,12 +556,53 @@ footer p {
 		min-width:auto;
 	}
 
+	.questions .question .rating {
+		padding:10px 0;
+	}
+
+	.questions .question .rating a {
+		font-size:12px;
+		padding:5px 10px;
+	}
+
+	.questions .question .rating .rating-panel.active.trials {
+		display:inline;
+	}
+
+	.questions .question .rating .rating-panel.active.trials span {
+		margin:0 100px 0 0;
+	}	
+
+	.questions .question .rating .prompts {
+		border-top:dotted 1px #ccc;
+		padding:10px 0 0 0;
+	}
+
+	.questions .question .rating .prompts .label {
+		width:100px;
+		display:inline-block;
+	}
+
+	.questions .question .rating .prompts input {
+		margin:0 100px 10px 5px !important;
+	}
+
 	.panel {
 		padding:20px;
 	}
 
 	.review {
 		padding:20px 20px 75px 20px;
+	}
+
+	.review button.copy {
+		top:70px;
+		right:20px;
+	}
+
+	.review .message {
+		top:35px;
+		right:25px;
 	}
 
 	footer {

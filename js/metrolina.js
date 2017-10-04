@@ -210,9 +210,9 @@ function buildInput(skill, client) {
 		range = "";
 
 		//create new inputs
-		var trials = '<div class="rating-panel trials active">completed <input class="completed" type="number" id="a' + q + '" name="a' + q + '"" /> out of <input class="attempts" type="number" id="aa' + q + '" name="aa' + q + '"" /> trials</div>',
-			percentage = '<div class="rating-panel percentage">scored <input type="number" id="aaa' + q + '" name="aaa' + q + '"" /> %</div>',
-			prompts = '<div class="prompts"> Verbal Prompts <input class="verbal" type="number" id="aaaa' + q + '" name="aaaa' + q + '" /> Physical Prompts <input class="physical" type="number" id="aaaaa' + q + '" name="aaaaa' + q + '" /></div>',
+		var trials = '<div class="rating-panel trials active"><span>completed</span> <input class="completed" type="number" id="completed' + q + '" name="completed' + q + '"" /> out of <input class="attempts" type="number" id="attempts' + q + '" name="attempts' + q + '"" /> trials</div>',
+			percentage = '<div class="rating-panel percentage"><span>scored</span> <input type="number" id="percent' + q + '" name="percent' + q + '"" /> %</div>',
+			prompts = '<div class="prompts"><span class="label">Verbal Prompts</span><input class="verbal" type="number" id="verbal' + q + '" name="verbal' + q + '" /> <span class="label">Physical Prompts</span><input class="physical" type="number" id="physical' + q + '" name="physical' + q + '" /></div>',
 			score = '<div class="score">The student ' + trials + percentage + '</div>';
 
 		extra_input += '<div class="rating"><a href="#trials" class="on"><i class="fa fa-cubes"></i> Trials</a><a href="#percentage"><i class="fa fa-percent"></i> Percentage</a><a href="#norating"><i class="fa fa-times"></i> No Rating</a>' + score + prompts + '</div>';
@@ -367,41 +367,41 @@ function buildReview(client) {
 				soap_prompts = verbal_prompts + physical_prompts,
 				soap_score = "";
 
-			//get percentage or trials	
-			if (rating_type == "percentage") {
-				rating = "with " + $(this).find(".percentage input").val() + "% accuracy";
-				soap_percent = $(this).find(".percentage input").val() * .01;
-			}	
-			else {
-				var trial_attempts = $(this).find(".trials .attempts").val(),
-					trial_completions = $(this).find(".trials .completed").val(),
-					rating = "in " + trial_completions + " out of " + trial_attempts + " trials";
-
-				soap_percent = trial_completions / trial_attempts;	
-			}
-
-			//format prompts
-			if (verbal_prompts > 0 && physical_prompts > 0) {
-				prompts = " after " + verbal_prompts + " verbal " + formatPrompt(verbal_prompts) + " and " + physical_prompts + " physical " + formatPrompt(physical_prompts);
-			}
-			else {
-				if (verbal_prompts > 0) {
-					prompts = " after " + verbal_prompts + " verbal " + formatPrompt(verbal_prompts);
-				}
-				else {
-					if (physical_prompts > 0) {
-						prompts = " after " + physical_prompts + " physical " + formatPrompt(physical_prompts);
-					}
-				}
-			}
-
-			soap_score = soap_percent / soap_prompts;
-			var soap_rating = getSoapRating(soap_score);
-
 			if (rating_type == "norating") {
 				review += input_label + ". ";
 			}
 			else {
+				//get percentage or trials	
+				if (rating_type == "percentage") {
+					rating = "with " + $(this).find(".percentage input").val() + "% accuracy";
+					soap_percent = $(this).find(".percentage input").val() * .01;
+				}	
+				else {
+					var trial_attempts = $(this).find(".trials .attempts").val(),
+						trial_completions = $(this).find(".trials .completed").val(),
+						rating = "in " + trial_completions + " out of " + trial_attempts + " trials";
+
+					soap_percent = trial_completions / trial_attempts;	
+				}
+
+				//format prompts
+				if (verbal_prompts > 0 && physical_prompts > 0) {
+					prompts = " after " + verbal_prompts + " verbal " + formatPrompt(verbal_prompts) + " and " + physical_prompts + " physical " + formatPrompt(physical_prompts);
+				}
+				else {
+					if (verbal_prompts > 0) {
+						prompts = " after " + verbal_prompts + " verbal " + formatPrompt(verbal_prompts);
+					}
+					else {
+						if (physical_prompts > 0) {
+							prompts = " after " + physical_prompts + " physical " + formatPrompt(physical_prompts);
+						}
+					}
+				}
+
+				soap_score = soap_percent / soap_prompts;
+				var soap_rating = getSoapRating(soap_score);
+
 				review += input_label + " " + rating + prompts + " (" + soap_rating + "). ";
 			}
 		}
