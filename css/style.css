@@ -479,6 +479,18 @@ footer p {
 	font-size:14px;
 }
 
+.beta {
+	font-family:arial,sans-serif;
+	font-size:10px;
+	line-height:21px;
+	padding:0 5px;
+	display:inline-block;
+	background:purple;
+	color:#fff;
+	border-radius:3px;
+	margin:20px 0;
+}
+
 /* Animations */
 @keyframes zoom {
 	0% {

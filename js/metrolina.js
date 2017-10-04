@@ -44,6 +44,8 @@ $(function() {
 		var target = "." + $(this).attr("href").slice(1);
 		$(this).parent().find(".rating-panel").removeClass("active");
 		$(this).parent().find(target).addClass("active");
+
+		target == ".norating" ? $(this).parent().find(".score, .prompts").hide() : $(this).parent().find(".score, .prompts").show();
 	});
 
 	//build review
@@ -211,9 +213,9 @@ function buildInput(skill, client) {
 		var trials = '<div class="rating-panel trials active">completed <input class="completed" type="number" id="a' + q + '" name="a' + q + '"" /> out of <input class="attempts" type="number" id="aa' + q + '" name="aa' + q + '"" /> trials</div>',
 			percentage = '<div class="rating-panel percentage">scored <input type="number" id="aaa' + q + '" name="aaa' + q + '"" /> %</div>',
 			prompts = '<div class="prompts"> Verbal Prompts <input class="verbal" type="number" id="aaaa' + q + '" name="aaaa' + q + '" /> Physical Prompts <input class="physical" type="number" id="aaaaa' + q + '" name="aaaaa' + q + '" /></div>',
-			score = '<div class="score">The client ' + trials + percentage + '</div>';
+			score = '<div class="score">The student ' + trials + percentage + '</div>';
 
-		extra_input += '<div class="rating"><a href="#trials" class="on"><i class="fa fa-cubes"></i> Trials</a><a href="#percentage"><i class="fa fa-percent"></i> Percentage</a>' + score + prompts + '</div>';
+		extra_input += '<div class="rating"><a href="#trials" class="on"><i class="fa fa-cubes"></i> Trials</a><a href="#percentage"><i class="fa fa-percent"></i> Percentage</a><a href="#norating"><i class="fa fa-times"></i> No Rating</a>' + score + prompts + '</div>';
 	}
 
 	skill.literal == undefined ? literal = false : literal = skill.literal;
@@ -396,7 +398,12 @@ function buildReview(client) {
 			soap_score = soap_percent / soap_prompts;
 			var soap_rating = getSoapRating(soap_score);
 
-			review += input_label + " " + rating + prompts + " (" + soap_rating + "). ";
+			if (rating_type == "norating") {
+				review += input_label + ". ";
+			}
+			else {
+				review += input_label + " " + rating + prompts + " (" + soap_rating + "). ";
+			}
 		}
 	});
 
