@@ -37,7 +37,7 @@ $(function() {
 		$(this).next("span").text(getSkillLevel($(this).val()));
 	});
 
-	//show child score panel
+	//show student score panel
 	$(".questions").on("click", ".question .rating a", function(e) {
 		e.preventDefault();
 		$(this).addClass("on").siblings().removeClass("on");
@@ -68,12 +68,12 @@ function loadSkills() {
 			buildQuestions(adultData);
 		},
 		complete: function() {
-			//child
+			//student
 			$.ajax({
 				dataType: "json",
-				url: "js/child-skills.json",
-				success: function(childData) {
-					buildQuestions(childData);
+				url: "js/student-skills.json",
+				success: function(studentData) {
+					buildQuestions(studentData);
 				},
 				error: function(a,b,c) {
 					//alert(a + ", " + b + ", " + c);
@@ -204,7 +204,7 @@ function buildInput(skill, client) {
 		range = "";
 	}
 
-	if (client == "child") {
+	if (client == "student") {
 		range = "";
 
 		//create new inputs
@@ -229,7 +229,12 @@ function buildInput(skill, client) {
 
 function buildReview(client) {
 	var reviewBox = $("#review"),
-		review = "";
+		review = "",
+		clientLabel = "Client";
+
+	if (client == "student") {
+		clientLabel = "Student";
+	}
 
 	//reset
 	reviewBox.val("");
@@ -237,25 +242,35 @@ function buildReview(client) {
 	//get completed fields
 	var clientName = $("#" + client + "-client-name").val(),
 		clientFeedback = $("#" + client + "-client-feedback").val(),
+		staffFeedback = $("#" + client + "-staff-feedback").val(),
 		lessonGoal = $("#" + client + "-lesson-goal").val(),
+		lessonLocation = $("#" + client + "-lesson-location").val(),
 		workPerformed = $("#" + client + "-work-performed").val(),
 		upcomingPlan = $("#" + client + "-upcoming-plan").val();
 
 	review = getDate() + "\n";
 
 	if ($.trim(clientName) != "") {
-		review += "Client: " + clientName + "\n";
+		review += clientLabel + ": " + clientName + "\n";
 	}
 
 	review += "\n";
 
 	if ($.trim(lessonGoal) != "") {
-		review += "The COMS met with the client for " + undercase(lessonGoal) + ".  ";
-	}		
+		review += "Lesson objective: " + lessonGoal + ".  ";
+	}	
+
+	if ($.trim(lessonLocation) != "") {
+		review += "Lesson location: " + lessonLocation + ".  ";
+	}			
 
 	if ($.trim(clientFeedback) != "") {
-		review += 'The client described their vision in the following manner, "' + clientFeedback + '."  ';
+		review += 'The ' + clientLabel.toLowerCase() + ' reports "' + clientFeedback + '."  ';
 	}	
+
+	if ($.trim(staffFeedback) != "") {
+		review += 'A school staff member reports "' + staffFeedback + '."  ';
+	}		
 
 	if ($.trim(workPerformed) != "") {
 		review += " " + workPerformed + ".  ";
@@ -273,7 +288,7 @@ function buildReview(client) {
 			input_label = "",
 			new_label = "";
 
-			is_literal == true ? input_label = label : input_label = "The client " + undercase(label);
+			is_literal == true ? input_label = label : input_label = "The " + clientLabel.toLowerCase() + " " + undercase(label);
 
 		switch (input_type) {
 			case "fill":
@@ -285,7 +300,7 @@ function buildReview(client) {
 			break;
 
 			case "dropdown":
-				new_label = "The client utilized a " + input_label.toLowerCase() + " of " + $(this).find("select").val();
+				new_label = "The " + clientLabel.toLowerCase() + " utilized a " + input_label.toLowerCase() + " of " + $(this).find("select").val();
 				input_label = new_label;
 			break;
 
@@ -336,9 +351,9 @@ function buildReview(client) {
 			}			
 		}
 
-		//child review
-		if (client == "child") {
-			//get child ratings
+		//student review
+		if (client == "student") {
+			//get student ratings
 			var rating_type = $(this).find("a.on").attr("href").slice(1),
 				verbal_prompts = $(this).find(".prompts .verbal").val(),
 				physical_prompts = $(this).find(".prompts .physical").val(),
@@ -352,7 +367,7 @@ function buildReview(client) {
 
 			//get percentage or trials	
 			if (rating_type == "percentage") {
-				rating = "with a " + $(this).find(".percentage input").val() + "% accuracy";
+				rating = "with " + $(this).find(".percentage input").val() + "% accuracy";
 				soap_percent = $(this).find(".percentage input").val() * .01;
 			}	
 			else {
@@ -386,7 +401,7 @@ function buildReview(client) {
 	});
 
 	if ($.trim(upcomingPlan) != "") {
-		review += " " + upcomingPlan + ".  ";
+		review += " Objective of the next lesson: " + upcomingPlan + ".  ";
 	}		
 
 	//output

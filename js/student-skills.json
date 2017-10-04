@@ -1,21 +1,26 @@
 {
-	"client": "child",
+	"client": "student",
 	"assessment": [
 		{
 			"category": "Long Cane Techniques",
 			"skills": [
 				{
-					"type": "checkbox",
-					"skill": "Demonstrated an awareness of different types of canes"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated an awareness of different types of canes"
+					"type": "fill",
+					"skill": "Demonstrated an awareness of different types of canes including",
+					"placeholder": "e.g. folding, telescoping, Ambutech, Revolution"
 				},
 				{
 					"type": "checkbox",
 					"skill": "Recognized parts of the cane"
 				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated adequate protective arc with a long cane"
+				},			
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated proper mechanics while using the long cane (e.g. midline positioning, wrist movement, adequate distance from abdomen)"
+				},							
 				{
 					"type": "checkbox",
 					"skill": "Demonstrated diagonal technique"
@@ -34,6 +39,14 @@
 				},
 				{
 					"type": "checkbox",
+					"skill": "Demonstrated constant contact technique"
+				},				
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated trailing with constant contact technique"
+				},				
+				{
+					"type": "checkbox",
 					"skill": "Demonstrated touch and drag technique"
 				},
 				{
@@ -42,7 +55,7 @@
 				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated shoreline technique"
+					"skill": "Demonstrated shorelining technique"
 				},
 				{
 					"type": "checkbox",
@@ -50,19 +63,15 @@
 				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated constant contact technique"
-				},
-				{
-					"type": "checkbox",
 					"skill": "Demonstrated three point check technique"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Ascended stairs (alternate or step by step)"
+					"skill": "Demonstrated the ability to ascend stairs using a long cane"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Descended stairs (alternate or step by step)"
+					"skill": "Demonstrated the ability to descend stairs using a long cane"
 				},
 				{
 					"type": "checkbox",
@@ -74,10 +83,6 @@
 				},
 				{
 					"type": "checkbox",
-					"skill": "Held or used the cane appropriately with human guide"
-				},
-				{
-					"type": "checkbox",
 					"skill": "Cleared with the cane before stepping"
 				}				
 			]
@@ -85,10 +90,6 @@
 		{
 			"category": "Human Guide",
 			"skills": [
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated basic human guide technique"
-				},
 				{
 					"type": "checkbox",
 					"skill": "Demonstrated basic human guide technique (e.g. proper arm, hand & body position, maintain grip, stop and go, changing surfaces, etc.)"
@@ -201,6 +202,10 @@
 				},
 				{
 					"type": "checkbox",
+					"skill": "Scanned appropriately for traffic threats during crossing"
+				},				
+				{
+					"type": "checkbox",
 					"skill": "Scanned and located objectives"
 				},
 				{
@@ -295,8 +300,12 @@
 			"skills": [
 				{
 					"type": "checkbox",
-					"skill": "Identified opposite compass directions (N/S & E/W)"
+					"skill": "Utilized compass directions to read a map"
 				},
+				{
+					"type": "checkbox",
+					"skill": "Identified opposite compass directions (N/S & E/W)"
+				},				
 				{
 					"type": "checkbox",
 					"skill": "Read and used a compass correctly"
@@ -432,6 +441,11 @@
 						{
 							"type": "checkbox",
 							"skill": "Identified limitations of GPS devices"
+						},
+						{
+							"type": "fill",
+							"skill": "Utilized",
+							"placeholder": "e.g. Blindsquare, The Seeing Eye GPS, etc."
 						}						
 					]
 				},

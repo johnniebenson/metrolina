@@ -1,4 +1,3 @@
 =======================
 ensure appcache has all files
 mobile responsiveness
-fix child questions for indentification

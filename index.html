@@ -25,7 +25,7 @@
         <nav>
             <ul>
                 <li><a href="#adult-review" class="selected" title="Adult Assessment"><i class="fa fa-male"></i> Adult</a></li>
-                <li><a href="#child-review" title="Child Assessment"><i class="fa fa-child"></i> Child</a></li>
+                <li><a href="#student-review" title="Student Assessment"><i class="fa fa-child"></i> Student</a></li>
             </ul>
         </nav>
 
@@ -43,7 +43,10 @@
                 <!-- Objective -->
                 <h2>Objective</h2>
                 <label for="adult-lesson-goal">Lesson Goal</label>
-                <textarea name="adult-lesson-goal" id="adult-lesson-goal" placeholder="e.g. visual impairment identification training"></textarea>                  
+                <textarea name="adult-lesson-goal" id="adult-lesson-goal" placeholder="e.g. Visual impairment identification training"></textarea>
+
+                <label for="adult-lesson-location">Lesson Location</label>
+                <textarea name="adult-lesson-location" id="adult-lesson-location" placeholder="e.g. residential neighborhood, indoor school campus, Harris Teeter"></textarea>                                                    
 
                 <!-- Assessment -->
                 <h2>Assessment</h2>
@@ -56,21 +59,27 @@
             </form>
         </section>
 
-        <section id="child-review" class="panel" data-assessment="child">
-            <h1>Child Assessment</h1>  
+        <section id="student-review" class="panel" data-assessment="student">
+            <h1>Student Assessment</h1>  
             <form>
-                <label for="child-client-name">Client Name</label>
-                <input type="text" name="child-client-name" id="child-client-name" placeholder="First name" />
+                <label for="student-client-name">Student Name</label>
+                <input type="text" name="student-client-name" id="student-client-name" placeholder="First name" />
 
                 <!-- Subjective -->
                 <h2>Subjective</h2>
-                <label for="child-client-feedback">Client Feedback</label>
-                <textarea name="child-client-feedback" id="child-client-feedback" placeholder="e.g. I can no longer see well enough to read large print"></textarea>                
+                <label for="student-client-feedback">Student Feedback</label>
+                <textarea name="student-client-feedback" id="student-client-feedback" placeholder="e.g. I can no longer see well enough to read large print"></textarea>                
+                
+                <label for="student-staff-feedback">Staff Member Feedback</label>
+                <textarea name="student-staff-feedback" id="student-staff-feedback" placeholder="e.g. The student can no longer see shapes"></textarea>   
 
                 <!-- Objective -->
                 <h2>Objective</h2>
-                <label for="child-lesson-goal">Lesson Goal</label>
-                <textarea name="child-lesson-goal" id="child-lesson-goal" placeholder="e.g. visual impairment identification training"></textarea>                  
+                <label for="student-lesson-goal">Lesson Goal</label>
+                <textarea name="student-lesson-goal" id="student-lesson-goal" placeholder="e.g. Visual impairment identification training"></textarea>
+
+                <label for="student-lesson-location">Lesson Location</label>
+                <textarea name="student-lesson-location" id="student-lesson-location" placeholder="e.g. residential neighborhood, indoor school campus, Harris Teeter"></textarea>                  
 
                 <!-- Assessment -->
                 <h2>Assessment</h2>
@@ -78,8 +87,8 @@
 
                 <!-- Plan -->
                 <h2>Plan</h2>
-                <label for="child-upcoming-plan">Upcoming Plan</label>
-                <textarea name="child-upcoming-plan" id="child-upcoming-plan" placeholder="e.g. COMS will follow up with the client in several weeks to determine status of the Lions cane request and para transit application"></textarea>     
+                <label for="student-upcoming-plan">Upcoming Plan</label>
+                <textarea name="student-upcoming-plan" id="student-upcoming-plan" placeholder="e.g. COMS will follow up with the student in several weeks to determine status of the Lions cane request and para transit application"></textarea>     
             </form>                     
         </section>
 
