@@ -1,3 +1,0 @@
-=======================
-ensure appcache has all files
-mobile responsiveness
