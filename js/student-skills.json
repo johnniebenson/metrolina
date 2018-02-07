@@ -2,89 +2,162 @@
 	"client": "student",
 	"assessment": [
 		{
-			"category": "Long Cane Techniques",
+			"category": "Teaching Methods/Materials",
 			"skills": [
 				{
 					"type": "fill",
-					"skill": "Demonstrated an awareness of different types of canes including",
-					"placeholder": "e.g. folding, telescoping, Ambutech, Revolution"
+					"skill": "Teaching Methods/Materials:",
+					"placeholder": "e.g. Student created a tactile map of a residential area",
+					"literal": true
+				}
+			]			
+		},
+		{	
+			"category": "Long Cane Techniques",
+			"groups": [
+				{
+					"group": "Basic Skills",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Identified that rooms in buildings have numbers"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Gripped long cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintained tip of long cane on ground"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Maintained long cane in position in front of body"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Repositioned long cane in front of the body as needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Responded to feedback from long cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identified obstacles detected with long cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identified textures detected with long cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Identified changes in elevation detected with long cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Folded and unfolded cane safely"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Negotiated obstacles safely with long cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Stayed behind path of cane during travel"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Used the long cane appropriately in crowded areas"
+						}					
+					]
 				},
 				{
-					"type": "checkbox",
-					"skill": "Recognized parts of the cane"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated adequate protective arc with a long cane"
-				},			
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated proper mechanics while using the long cane (e.g. midline positioning, wrist movement, adequate distance from abdomen)"
-				},							
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated diagonal technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated diagonal trailing technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated two point touch technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated trailing with two point touch technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated constant contact technique"
-				},				
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated trailing with constant contact technique"
-				},				
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated touch and drag technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated touch and slide technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated shorelining technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated three point touch technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated three point check technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated the ability to ascend stairs using a long cane"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated the ability to descend stairs using a long cane"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Used cane responsibly"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Stored and retrieved the cane as needed"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Cleared with the cane before stepping"
-				}				
+					"group": "Other Skills",
+					"skills": [
+						{
+							"type": "fill",
+							"skill": "Demonstrated an awareness of different types of canes including",
+							"placeholder": "e.g. folding, telescoping, Ambutech, Revolution"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Recognized parts of the cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated adequate protective arc with a long cane"
+						},			
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated proper mechanics while using the long cane (e.g. midline positioning, wrist movement, adequate distance from abdomen)"
+						},							
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated diagonal technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated diagonal trailing technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated two point touch technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated trailing with two point touch technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated constant contact technique"
+						},				
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated trailing with constant contact technique"
+						},				
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated touch and drag technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated touch and slide technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated shorelining technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated three point touch technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated three point check technique"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to ascend stairs using a long cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to descend stairs using a long cane"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Used cane responsibly"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Stored and retrieved the cane as needed"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Cleared with the cane before stepping"
+						}				
+					]
+				}															
 			]
 		},
 		{
@@ -125,6 +198,10 @@
 				{
 					"type": "checkbox",
 					"skill": "Demonstrated hines break technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Used a grocery cart with a guide"
 				}									
 			]
 		},
@@ -162,7 +239,26 @@
 				{
 					"type": "checkbox",
 					"skill": "Located dropped objects in a systematic manner"
-				}				
+				},
+				{
+					"type": "checkbox",
+					"skill": "Used systematic search patterns to locate objectives"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Maintained an appropriate pace"
+				}, 
+				{
+					"type": "fill",
+					"skill": "Traveled",
+					"placeholder": "e.g. 30",
+					"suffix": "minutes without requiring a break",
+					"size": "small"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Used social niceties when encountering others in travel path"
+				}						
 			]
 		},		
 		{
@@ -239,7 +335,46 @@
 				{
 					"type": "checkbox",
 					"skill": "Tracked with the device to follow moving objects or people"
-				}				
+				},
+				{
+					"type": "fill",
+					"skill": "Read",
+					"placeholder": "e.g. number on house, number on mailbox",
+					"suffix": "numbers using functional vision"
+				},
+				{
+					"type": "multifill",
+					"fills": [
+						{
+							"skill": "Used monocular to read",
+							"placeholder": "e.g. street signs, bus stop signs, number on house"						
+						},
+						{
+							"skill": "from",
+							"placeholder": "e.g. distance of 10 yards"								
+						}
+					]
+				},
+				{
+					"type": "checkbox",
+					"skill": "Located visual landmarks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Located visual clues"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Used functional vision to maintain position while walking in line"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Used functional vision to safely navigate crowded environments"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Used systematic scanning patterns"
+				}
 			]
 		},	
 		{
@@ -341,6 +476,46 @@
 				{
 					"type": "checkbox",
 					"skill": "Used clues for orientation"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Utilized self-familiarization techniques"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Verbalized travel route"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Utilized problem solving skills for reorientation"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Labeled walls within building for orientation"
+				}, 
+				{
+					"type": "fill",
+					"skill": "Used",
+					"placeholder": "e.g. business signage",
+					"suffix": "to maintain orientation"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Located and read braille room signage"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Located and read tactile room signage"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Located and read room signage visually"
+				}, 
+				{
+					"type": "fill",
+					"skill": "Used",
+					"placeholder": "e.g. iPhone, monocular",
+					"suffix": "to read signage"
 				}
 			],
 			"groups": [
@@ -366,6 +541,10 @@
 						{
 							"type": "checkbox",
 							"skill": "Identified that initial digit can identify floor number of a room"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Located objectives using indoor numbering systems"
 						}						
 					]
 				},
@@ -387,7 +566,15 @@
 						{
 							"type": "checkbox",
 							"skill": "Identified that even number addresses are either on east/west side of streets and either north/south side of streets (depending on the town)"
-						}						
+						},
+						{
+							"type": "checkbox",
+							"skill": "Located objectives using outdoor numbering systems"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Estimated the location of an address along a block"
+						}			
 					]
 				},
 				{
@@ -416,7 +603,15 @@
 						{
 							"type": "checkbox",
 							"skill": "Identified methods for determining reference lines in various cities"
-						}						
+						},
+						{
+							"type": "checkbox",
+							"skill": "Located objectives using street systems"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Created a map of street system"
+						}			
 					]
 				},
 				{
@@ -485,7 +680,53 @@
 							"skill": "Selected appropriate symbols when creating a map (e.g. selecting large symbol to represent the school gym and a small symbol to represent the girls bathroom)"
 						}						
 					]
-				}																
+				},
+				{
+					"group": "Executed the following routes within a square block:",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Executed an \"I\" shape (a straight line from corner to corner)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Executed an \"L\" shape"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Executed a \"U\" shape"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Went around the block"
+						}						
+					]
+				},
+				{
+					"group": "Execute different shaped routes within a grid pattern neighborhood (more than 1 block)",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Executed an \"I\" route (a straight linear route of consecutive blocks)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Executed an \"L\" shaped route of consecutive blocks"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Executed a \"U\" shaped route around a series of blocks"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Executed a \"Z\" route (a zig-zag route consisting of a series of blocks)"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Executed a rectangular route (using multiple blocks)"
+						}						
+					]
+				}																					
 			]
 		},			
 		{
@@ -538,7 +779,19 @@
 						{
 							"type": "checkbox",
 							"skill": "Safely maneuvered around others in the hall while changing classes"
-						}						
+						},
+						{
+							"type": "checkbox",
+							"skill": "Traveled routes to random destinations within school building  (i.e. not necessarily included in student's daily routine)"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Traveled a route to two sequenced destinations"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Traveled a route to three sequenced destinations"
+						}
 					]
 				},
 				{
@@ -592,7 +845,24 @@
 						{
 							"type": "checkbox",
 							"skill": "Negotiated pedestrian traffic safely (e.g. during arrival & dismissal, at lunch, during recess)"
-						}					
+						},
+						{
+							"type": "checkbox",
+							"skill": "Navigated the perimeter of the outdoor campus"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Located the bus area"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Located the athletic fields"
+						},
+						{
+							"type": "fill",
+							"skill": "Located",
+							"placeholder": "e.g. flagpole"
+						} 
 					]
 				}												
 			]
@@ -607,18 +877,6 @@
 				{
 					"type": "checkbox",
 					"skill": "Located and Identified common environmental features of residential areas (e.g. cul-de-sac)"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated knowledge of the concept of a city block"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated knowledge of the concept of an intersection and its relationship to a city block"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated knowledge of the concept of grid system"
 				},
 				{
 					"type": "checkbox",
@@ -643,55 +901,20 @@
 				{
 					"type": "checkbox",
 					"skill": "Travelled safely in areas without sidewalks or paths"
-				}				
-			],
-			"groups": [
-				{
-					"group": "Executed the following routes within a square block:",
-					"skills": [
-						{
-							"type": "checkbox",
-							"skill": "Executed an \"I\" shape (a straight line from corner to corner)"
-						},
-						{
-							"type": "checkbox",
-							"skill": "Executed an \"L\" shape"
-						},
-						{
-							"type": "checkbox",
-							"skill": "Executed a \"U\" shape"
-						},
-						{
-							"type": "checkbox",
-							"skill": "Went around the block"
-						}						
-					]
 				},
 				{
-					"group": "Execute different shaped routes within a grid pattern neighborhood (more than one block)",
-					"skills": [
-						{
-							"type": "checkbox",
-							"skill": "Executed an \"I\" route (a straight linear route of consecutive blocks)"
-						},
-						{
-							"type": "checkbox",
-							"skill": "Executed an \"L\" shaped route of consecutive blocks"
-						},
-						{
-							"type": "checkbox",
-							"skill": "Executed a \"U\" shaped route around a series of blocks"
-						},
-						{
-							"type": "checkbox",
-							"skill": "Executed a \"Z\" route (a zig-zag route consisting of a series of blocks)"
-						},
-						{
-							"type": "checkbox",
-							"skill": "Executed a rectangular route (using multiple blocks)"
-						}						
-					]
-				}				
+					"type": "checkbox",
+					"skill": "Located driveways"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Located mailboxes"
+				},
+				{
+					"type": "fill",
+					"skill": "Located",
+					"placeholder": "e.g. fire hydrants"
+				}													
 			]
 		},		
 		{
@@ -699,92 +922,119 @@
 			"skills": [
 				{
 					"type": "checkbox",
-					"skill": "Located down curb, ramped curb cut, or blended curb and stop a safe distance from the street"
+					"skill": "Located down curb, ramped curb cut, or blended curb and stop a safe distance from the street",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Identified and locate a crosswalk"
+					"skill": "Identified and locate a crosswalk",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Used traffic to align oneself in preparation for crossing"
+					"skill": "Used traffic to align oneself in preparation for crossing",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Visually judged the distance and speed of moving vehicles (Low vision)"
+					"skill": "Visually judged the distance and speed of moving vehicles (Low vision)",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Auditorily judged the distance and speed of moving vehicles"
+					"skill": "Auditorily judged the distance and speed of moving vehicles",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Waited for assistance to cross the street (if applicable)"
+					"skill": "Waited for assistance to cross the street",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Maintained line of direction at the corner"
+					"skill": "Maintained line of direction at the corner",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Used indenting away from the parallel street (if applicable)"
+					"skill": "Used indenting away from the parallel street",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Identified parallel (street on side) and perpendicular (cross street in front or behind student) streets"
+					"skill": "Identified parallel (street on side) and perpendicular (cross street in front or behind student) streets",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Identified the number of lanes on the parallel street"
+					"skill": "Identified the number of lanes on the parallel street",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Identified the number of lanes on the perpendicular street"
+					"skill": "Identified the number of lanes on the perpendicular street",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Identified turning traffic patterns on the parallel street"
+					"skill": "Identified turning traffic patterns on the parallel street",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Identified turning traffic patterns on the perpendicular street"
+					"skill": "Identified turning traffic patterns on the perpendicular street",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Displayed cane in the \"ready and waiting\" diagonal position for visibility"
+					"skill": "Displayed cane in the \"ready and waiting\" diagonal position for visibility",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Waited on traffic when in question"
+					"skill": "Waited on traffic when in question",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Used body language to communicate to drivers the desire to wait"
+					"skill": "Used body language to communicate to drivers the desire to wait",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Crossed in the absence of traffic"
+					"skill": "Crossed in the absence of traffic",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Crossed in the presence of traffic"
+					"skill": "Crossed in the presence of traffic",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Safely navigated past and/or around an idling car"
+					"skill": "Safely navigated past and/or around an idling car",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Corrected for veering when crossing"
+					"skill": "Corrected for veering when crossing",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Corrected for veering after crossing"
+					"skill": "Corrected for veering after crossing",
+					"append": "at a residential intersection"
 				},
 				{
 					"type": "checkbox",
-					"skill": "Located the desired direction after crossing"
-				}		
+					"skill": "Located the desired direction after crossing",
+					"append": "at a residential intersection"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identified the location of traffic threats at a given commercial street crossing",
+					"append": "at a residential intersection"
+				}	
 			],
 			"groups": [
 				{
@@ -792,27 +1042,33 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "Recognized the presence and absence of traffic"
+							"skill": "Recognized the presence and absence of traffic",
+							"append": "in relation to self at a residential intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified parallel traffic"
+							"skill": "Identified parallel traffic",
+							"append": "in relation to self at a residential intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified perpendicular traffic"
+							"skill": "Identified perpendicular traffic",
+							"append": "in relation to self at a residential intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified when traffic is far or near"
+							"skill": "Identified when traffic is far or near",
+							"append": "in relation to self at a residential intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified fast and slow traffic"
+							"skill": "Identified fast and slow traffic",
+							"append": "in relation to self at a residential intersection"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified traffic moving toward and away from self"
+							"skill": "Identified traffic moving toward and away from self",
+							"append": "in relation to self at a residential intersection"
 						}						
 					]
 				},
@@ -821,31 +1077,38 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "Determined a \"+\" intersection"
+							"skill": "Determined a \"+\" intersection",
+							"append": "in a residential area by visually and/or auditorily analyzing the traffic patterns/flow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Determined a \"T\" intersection"
+							"skill": "Determined a \"T\" intersection",
+							"append": "in a residential area by visually and/or auditorily analyzing the traffic patterns/flow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Determined a \"Y\" intersection"
+							"skill": "Determined a \"Y\" intersection",
+							"append": "in a residential area by visually and/or auditorily analyzing the traffic patterns/flow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Determined an offset intersection"
+							"skill": "Determined an offset intersection",
+							"append": "in a residential area by visually and/or auditorily analyzing the traffic patterns/flow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Determined two way by two way traffic flow"
+							"skill": "Determined two way by two way traffic flow",
+							"append": "in a residential area by visually and/or auditorily analyzing the traffic patterns/flow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Determined one way by two way traffic flow"
+							"skill": "Determined one way by two way traffic flow",
+							"append": "in a residential area by visually and/or auditorily analyzing the traffic patterns/flow"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Determined one way by one way traffic flow"
+							"skill": "Determined one way by one way traffic flow",
+							"append": "in a residential area by visually and/or auditorily analyzing the traffic patterns/flow"
 						}						
 					]
 				},
@@ -854,26 +1117,61 @@
 					"skills": [
 						{
 							"type": "checkbox",
-							"skill": "Identified a 2 way stop intersections"
+							"skill": "Identified a 2 way stop intersection",
+							"append": "in a residential setting"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified a 3 way stop intersections"
+							"skill": "Identified a 3 way stop intersection",
+							"append": "in a residential setting"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified a 4 way stop intersections"
+							"skill": "Identified a 4 way stop intersection",
+							"append": "in a residential setting"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified a roundabout"
+							"skill": "Identified a roundabout",
+							"append": "in a residential setting"
 						},
 						{
 							"type": "checkbox",
-							"skill": "Identified uncontrolled intersections"
+							"skill": "Identified uncontrolled intersections",
+							"append": "in a residential setting"
 						}						
 					]
-				}								
+				},
+				{
+					"group": "Perform street crossings at each intersection type in a residential setting",
+					"skills": [
+						{
+							"type": "checkbox",
+							"skill": "Performed a street crossing at a 2 way stop sign controlled intersection",
+							"append": "in a residential setting"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Performed a street crossing at a 3 way stop sign controlled intersection",
+							"append": "in a residential setting"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Performed a street crossing at a 4 way stop sign controlled intersection",
+							"append": "in a residential setting"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Performed a street crossing at a roundabout",
+							"append": "in a residential setting"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Performed a street crossing at an uncontrolled street",
+							"append": "in a residential setting"
+						}																								
+					]
+				}									
 			]
 		},				
 		{
@@ -1073,6 +1371,78 @@
 			]
 		},	
 		{
+			"category": "Concepts",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Identified characteristics of a residential area"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identified types of street hardware found in commercial areas"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Identified characteristics of a commercial area"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated knowledge of the concept of a city block"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated knowledge of the concept of an intersection and its relationship to a city block"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated knowledge of the concept of grid system"
+				}, 
+				{
+					"type": "fill",
+					"skill": "Identified the following roadway markings and their purpose:",
+					"placeholder": "e.g. solid yellow lines, stop lines, crosswalks"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Explained purpose of detectable warning tiles"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Explained features of APS"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Identified common roadway signage"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Explained right turn on red law"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Explained permissive left turn"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Explained protected left turn"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identified the origin of traffic threats at a given crossing"
+				},
+				{
+					"type": "fill",
+					"skill": "Built a map of the following intersection shape(s):",
+					"placeholder": "e.g. Plus, T, roundabout, etc."
+				},
+				{
+					"type": "fill",
+					"skill": "Demonstrated ability to",
+					"placeholder": "e.g. build map of a complex intersection, explain actuation"
+				}			
+			]
+		},
+		{
 			"category": "Commercial Orientation & Mobility",
 			"skills": [
 				{
@@ -1122,6 +1492,22 @@
 				{
 					"type": "checkbox",
 					"skill": "Negotiated construction areas"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Traveled a commercial block"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Located a store entrance in a commercial area"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Located and read store signage in commercial area"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Used address systems to locate desired objective in commercial area"
 				}				
 			]
 		},
@@ -1207,7 +1593,43 @@
 				{
 					"type": "checkbox",
 					"skill": "Negotiated an intersection with a traffic control island or median strip"
-				}				
+				},				
+				{
+					"type": "checkbox",
+					"skill": "Familiarized self with street corner"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Analyzed a commercial street crossing"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Identified permissive left turns"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Identified protected left turns"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Identified the nearest lane of parallel traffic"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identified clockwise street crossings"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Identified the location of traffic threats at a given commercial street crossing"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Identified counterclockwise street crossings"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Safely crossed a channelized right turn lane"
+				}
 			]
 		},
 		{
@@ -1263,7 +1685,31 @@
 						{
 							"type": "checkbox",
 							"skill": "Paid for items independently"
-						}
+						},
+						{
+							"type": "checkbox",
+							"skill": "Traveled the interior perimeter of store"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Used social niceties when encountering others in travel path"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Oriented self to store aisles"
+						}, 
+						{
+							"type": "checkbox",
+							"skill": "Used functional vision to locate and read aisle signage"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Used monocular to locate and read aisle signage"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Used iPhone to locate and read aisle signage"
+						}						
 					]
 				},
 				{
@@ -1897,7 +2343,27 @@
 				},
 				{
 					"type": "checkbox",
-					"skill": "Identified vehicles by sound (e.g. busses, trucks, motorcycles, bicycles)"
+					"skill": "Identified vehicles by sound (e.g. buses, trucks, motorcycles, bicycles)"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Located a rolling sound ball"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Tossed a sound ball"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Caught a sound ball"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Kicked a sound ball"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Located a sound source placed in various locations from (text field – feet e.g. 5 feet)"
 				}
 			]
 		},	
@@ -2668,6 +3134,10 @@
 				{
 					"type": "checkbox",
 					"skill": "Negotiated elevators"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated active listening while being pushed in wheelchair"
 				}
 			],
 			"groups": [
@@ -3185,7 +3655,40 @@
 					"skill": "Negotiated curbs safely when going up or down"
 				}
 			]
-		}																																																										
+		},																				
+		{
+			"category": "AMD",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Made safe transitions from the floor or a chair to a standing position"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Gripped the AMD appropriately"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Pushed the AMD appropriately"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Maintained the AMD in front of the body"
+				}, 
+				{
+					"type": "checkbox",
+					"skill": "Identified textures using the AMD"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Adjusted line of travel appropriately based on AMD feedback"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Utilized the AMD on curbs"
+				}				
+			]
+		}																																																											
 	]
 
 }

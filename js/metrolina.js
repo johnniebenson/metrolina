@@ -27,6 +27,12 @@ $(function() {
 		$(this).parent().toggleClass("open");
 	});
 
+	//check main question checkbox if interior input is selected
+	$(".questions").on("click", ".question ul li[data-input-type] input:not([type=checkbox]:first-of-type), .question ul li[data-input-type] select, .question ul li .checkboxes input[type=checkbox]", function() {
+		$(this).parents("li[data-input-type]").addClass("selected");
+		$(this).parents("li[data-input-type]").find("input[type=checkbox]").eq(0).attr("checked", "checked");
+	});	
+
 	//activate slider
 	$(".questions").on("click", ".question ul li[data-input-type] input[type=checkbox]", function() {
 		$(this).parent("li").toggleClass("selected");
@@ -174,11 +180,19 @@ function buildInput(skill, client) {
 		extra_input = '',
 		literal = '',
 		quote = '',
-		isRange = skill.range;
+		hasSuffix = 'false',
+		isRange = skill.range,
+		suffix = skill.suffix,
+		append = skill.append,
+		input_size = '';
+
+	if (skill.size != null) {
+		input_size = skill.size;
+	}
 
 	switch(skill.type) {
 		case "fill":
-			extra_input = '<input type="text" class="fill" placeholder="' + skill.placeholder + '" />';
+			extra_input = '<input type="text" class="fill ' + input_size + '" placeholder="' + skill.placeholder + '" />';
 			break;	
 
 		case "multi":
@@ -196,10 +210,20 @@ function buildInput(skill, client) {
 		case "color":
 			var color = skill.skill.toLowerCase().slice(11);
 			extra_input = '<div class="circle" style="background:' + color + ';"></div>';
-			break;					
+			break;
+
+		case "multifill":
+			extra_input = buildMultiFill(skill.fills);
+			label = '';
+			break;						
 
 		default:
 			break;
+	}
+
+	if (suffix != null) {
+		hasSuffix = "true";
+		extra_input += '<span class="suffix">' + suffix + '</span>';
 	}
 
 	if (isRange == false) {
@@ -221,10 +245,11 @@ function buildInput(skill, client) {
 	skill.literal == undefined ? literal = false : literal = skill.literal;
 	skill.quote == undefined ? quote = false : quote = skill.quote;
 	skill.range == undefined ? isRange = true : isRange = skill.range;
+	skill.append == undefined ? append = "" : append = skill.append;
 
 	//build list item to be added
 	var assessment_list = $("#" + client + "-review .questions .question:last-child ul:last-child:not(.multi-list)"),
-	 	assessment_list_item = '<li data-input-type="' + skill.type + '" data-literal="' + literal + '" data-quote="' + quote + '" data-range="' + isRange + '">' + checkbox + ' ' + label + ' ' + extra_input + ' ' + range + '</li>';
+	 	assessment_list_item = '<li data-input-type="' + skill.type + '" data-literal="' + literal + '" data-quote="' + quote + '" data-range="' + isRange + '" data-suffix="' + hasSuffix + '" data-append="' + append + '">' + checkbox + ' ' + label + ' ' + extra_input + ' ' + range + '</li>';
 
 	assessment_list.append(assessment_list_item);
 }
@@ -242,13 +267,17 @@ function buildReview(client) {
 	reviewBox.val("");
 
 	//get completed fields
-	var clientName = $("#" + client + "-client-name").val(),
-		clientFeedback = $("#" + client + "-client-feedback").val(),
-		staffFeedback = $("#" + client + "-staff-feedback").val(),
-		lessonGoal = $("#" + client + "-lesson-goal").val(),
-		lessonLocation = $("#" + client + "-lesson-location").val(),
-		workPerformed = $("#" + client + "-work-performed").val(),
-		upcomingPlan = $("#" + client + "-upcoming-plan").val();
+	var clientName = clean($("#" + client + "-client-name").val()),
+		clientFeedback = clean($("#" + client + "-client-feedback").val()),
+		comsFeedback = clean($("#" + client + "-coms-feedback").val()),
+		addFeedback = clean($("#" + client + "-additional-feedback").val()),
+		addFeedbackName = clean($("#" + client + "-additional-name").val()),
+		add2Feedback = clean($("#" + client + "-additional2-feedback").val()),
+		add2FeedbackName = clean($("#" + client + "-additional2-name").val()),
+		lessonGoal = clean($("#" + client + "-lesson-goal").val()),
+		lessonLocation = clean($("#" + client + "-lesson-location").val()),
+		workPerformed = clean($("#" + client + "-work-performed").val()),
+		upcomingPlan = clean($("#" + client + "-upcoming-plan").val());
 
 	review = getDate() + "\n";
 
@@ -258,23 +287,31 @@ function buildReview(client) {
 
 	review += "\n";
 
-	if ($.trim(lessonGoal) != "") {
+	if (lessonGoal != "") {
 		review += "Lesson objective: " + lessonGoal + ".  ";
 	}	
 
-	if ($.trim(lessonLocation) != "") {
+	if (lessonLocation != "") {
 		review += "Lesson location: " + lessonLocation + ".  ";
 	}			
 
-	if ($.trim(clientFeedback) != "") {
+	if (clientFeedback != "") {
 		review += 'The ' + clientLabel.toLowerCase() + ' reports "' + clientFeedback + '."  ';
 	}	
 
-	if ($.trim(staffFeedback) != "") {
-		review += 'A school staff member reports "' + staffFeedback + '."  ';
+	if (comsFeedback != "") {
+		review += 'COMS feedback: "' + comsFeedback + '."  ';
 	}		
 
-	if ($.trim(workPerformed) != "") {
+	if (addFeedback != "") {
+		review += addFeedbackName + ' feedback: "' + addFeedback + '."  ';
+	}
+
+	if (add2Feedback != "") {
+		review += add2FeedbackName + ' feedback: "' + add2Feedback + '."  ';
+	}	
+
+	if (workPerformed != "") {
 		review += " " + workPerformed + ".  ";
 	}		
 
@@ -287,6 +324,8 @@ function buildReview(client) {
 			is_literal = $(this).data("literal"),
 			is_quote = $(this).data("quote"),
 			is_range = $(this).data("range"),
+			has_suffix = $(this).data("suffix"),
+			append_phrase = $(this).data("append"),
 			input_label = "",
 			new_label = "";
 
@@ -334,8 +373,30 @@ function buildReview(client) {
 				});
 			break;
 
+			case "multifill":
+				var q = $(this).find("input[type=checkbox]").attr("id"),
+					total_fills = $(this).find("input[type=text]").length;
+				new_label = "The " + clientLabel.toLowerCase();
+
+				for (var f = 0; f < total_fills; f++) {
+					var qf = "#" + q + "f" + f;
+					new_label += " " + undercase($(this).find("label").eq(f).text()) + " " + $(qf).val();
+				}
+				input_label = new_label;
+			break;
+
 			default:
 			break;
+		}
+
+		//add suffix, if applicable
+		if (has_suffix) {
+			input_label += " " + $(this).find(".suffix").text();
+		}
+
+		//add appended phrase, if applicable
+		if (append_phrase != undefined && append_phrase.length > 0) {
+			input_label += " " + append_phrase;
 		}
 
 		//adult review
@@ -407,7 +468,7 @@ function buildReview(client) {
 		}
 	});
 
-	if ($.trim(upcomingPlan) != "") {
+	if (upcomingPlan != "") {
 		review += " Objective of the next lesson: " + upcomingPlan + ".  ";
 	}		
 
@@ -521,6 +582,14 @@ function buildMulti(options) {
 	return checkboxes;
 }
 
+function buildMultiFill(fills) {
+	var fillrange = '';
+	for (var f = 0; f < fills.length; f++) {
+		fillrange += '<label for="q' + q + '">' + fills[f].skill + '</label><input type="text" name="q' + q + 'f' + f + '" id="q' + q + 'f' + f + '" placeholder="' + fills[f].placeholder + '" />';
+	}
+	return fillrange;
+}
+
 function undercase(string) {
 	var stringLower = string.charAt(0).toLowerCase() + string.substr(1);
 	return stringLower;
@@ -530,4 +599,13 @@ function formatPrompt(prompts) {
 	var prompt_text = "";
 	prompts == 1 ? prompt_text = "prompt" : prompt_text = "prompts";
 	return prompt_text;
+}
+
+function clean(value) {
+	var clean_value = "";
+	clean_value = $.trim(value);
+	if (clean_value.charAt(clean_value.length - 1) == ".") {
+		clean_value = clean_value.slice(0,-1);
+	}
+	return clean_value;	
 }

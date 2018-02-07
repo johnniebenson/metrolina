@@ -29,7 +29,7 @@
         </nav>
 
         <section id="adult-review" class="panel open" data-assessment="adult">
-            <h1>Adult Assessment</h1>
+            <h1>Adult Note Generator</h1>
             <form>
                 <label for="adult-client-name">Client Name</label>
                 <input type="text" name="adult-client-name" id="adult-client-name" placeholder="First name" />
@@ -59,7 +59,7 @@
         </section>
 
         <section id="student-review" class="panel" data-assessment="student">
-            <h1>Student Assessment</h1>  
+            <h1>Student Note Generator</h1>  
             <form>
                 <label for="student-client-name">Student Name</label>
                 <input type="text" name="student-client-name" id="student-client-name" placeholder="First name" />
@@ -69,8 +69,15 @@
                 <label for="student-client-feedback">Student Feedback</label>
                 <textarea name="student-client-feedback" id="student-client-feedback" placeholder="e.g. I can no longer see well enough to read large print"></textarea>                
                 
-                <label for="student-staff-feedback">Staff Member Feedback</label>
-                <textarea name="student-staff-feedback" id="student-staff-feedback" placeholder="e.g. The student can no longer see shapes"></textarea>   
+                <label for="student-coms-feedback">COMS Feedback</label>
+                <textarea name="student-coms-feedback" id="student-coms-feedback" placeholder="e.g. The student can no longer see shapes"></textarea>    
+
+                <label for="student-additional-name">Additional Feedback</label>
+                <input type="text" name="student-additional-name" id="student-additional-name" placeholder="Name/Title" />
+                <textarea name="student-additional-feedback" id="student-additional-feedback" placeholder="e.g. My child can no longer see shapes"></textarea>
+
+                <input type="text" name="student-additional2-name" id="student-additional2-name" class="space" placeholder="Name/Title" /> 
+                <textarea name="student-additional2-feedback" id="student-additional2-feedback" placeholder="e.g. The student can no longer see shapes"></textarea>
 
                 <!-- Objective -->
                 <h2>Objective</h2>
@@ -81,7 +88,7 @@
                 <textarea name="student-lesson-location" id="student-lesson-location" placeholder="e.g. residential neighborhood, indoor school campus, Harris Teeter"></textarea>                  
 
                 <!-- Assessment -->
-                <h2>Assessment</h2>
+                <h2>Lesson Outcomes</h2>
                 <div class="questions"></div>
 
                 <!-- Plan -->
@@ -103,7 +110,7 @@
             <p>&copy; 2017 Metrolina Association For The Blind.</p>
             <p>Noteworthy and heartwarming.</p>
             <p>All Rights Reserved.</p>
-            <p class="beta">BETA v1.1</p>
+            <p class="beta">BETA v1.4</p>
         </footer>
 
         <script type="text/javascript" src="js/metrolina.js"></script>
