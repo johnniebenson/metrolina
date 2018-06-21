@@ -33,7 +33,7 @@ $(function() {
 		$(this).parents("li[data-input-type]").find("input[type=checkbox]").eq(0).attr("checked", "checked");
 	});	
 
-	//activate slider
+	//toggle slider/ratings
 	$(".questions").on("click", ".question ul li[data-input-type] input[type=checkbox]", function() {
 		$(this).parent("li").toggleClass("selected");
 	});
@@ -41,6 +41,11 @@ $(function() {
 	//change slider values
 	$(".questions").on("change", ".question input[type=range]", function() {
 		$(this).next("span").text(getSkillLevel($(this).val()));
+	});
+
+	//range options as buttons
+	$(".questions").on("click", ".question .buttons span", function() {
+		$(this).addClass("selected").siblings().removeClass("selected");
 	});
 
 	//show student score panel
@@ -176,7 +181,8 @@ function buildInput(skill, client) {
 	q++;
 	var checkbox = '<input type="checkbox" id="q' + q + '" name="q' + q + '" />',
 		label = '<label for="q' + q + '">' + skill.skill + '</label>',
-		range = '<div class="range"><input type="range" id="range' + q + '" name="range' + q + '" min="0" max="5" value="3" step="1" /><span>Moderate Assistance</span></div>',
+		//range = '<div class="range"><input type="range" id="range' + q + '" name="range' + q + '" min="0" max="5" value="3" step="1" /><span>Moderate Assistance</span></div>',
+		range = '<div class="range buttons"><span>Independently</span><span>Supervision</span><span>Minimum Assistance</span><span class="selected">Moderate Assistance</span><span>Maximum Assistance</span><span>Dependently</span></div>',
 		extra_input = '',
 		literal = '',
 		quote = '',
@@ -214,6 +220,11 @@ function buildInput(skill, client) {
 
 		case "multifill":
 			extra_input = buildMultiFill(skill.fills);
+			label = '';
+			break;	
+
+		case "multidropdown":
+			extra_input = buildMultiDropdown(skill.dropdowns);
 			label = '';
 			break;						
 
@@ -276,6 +287,7 @@ function buildReview(client) {
 		add2FeedbackName = clean($("#" + client + "-additional2-name").val()),
 		lessonGoal = clean($("#" + client + "-lesson-goal").val()),
 		lessonLocation = clean($("#" + client + "-lesson-location").val()),
+		teachingMethods = clean($("#" + client + "-teaching-methods").val()),
 		workPerformed = clean($("#" + client + "-work-performed").val()),
 		upcomingPlan = clean($("#" + client + "-upcoming-plan").val());
 
@@ -288,38 +300,49 @@ function buildReview(client) {
 	review += "\n";
 
 	if (lessonGoal != "") {
-		review += "Lesson objective: " + lessonGoal + ".  ";
+		review += "Lesson Objective:  " + lessonGoal + ".  ";
 	}	
 
 	if (lessonLocation != "") {
-		review += "Lesson location: " + lessonLocation + ".  ";
-	}			
+		review += "Lesson Location:  " + lessonLocation + ".  ";
+	}		
+
+	if (teachingMethods != "") {
+		review += "Teaching Methods/Materials:  " + teachingMethods + ".  ";
+	}	
 
 	if (clientFeedback != "") {
 		review += 'The ' + clientLabel.toLowerCase() + ' reports "' + clientFeedback + '."  ';
 	}	
 
 	if (comsFeedback != "") {
-		review += 'COMS feedback: "' + comsFeedback + '."  ';
+		review += 'COMS Feedback:  "' + comsFeedback + '."  ';
 	}		
 
 	if (addFeedback != "") {
-		review += addFeedbackName + ' feedback: "' + addFeedback + '."  ';
+		review += addFeedbackName + ' feedback:  "' + addFeedback + '."  ';
 	}
 
 	if (add2Feedback != "") {
-		review += add2FeedbackName + ' feedback: "' + add2Feedback + '."  ';
+		review += add2FeedbackName + ' feedback:  "' + add2Feedback + '."  ';
 	}	
 
 	if (workPerformed != "") {
 		review += " " + workPerformed + ".  ";
-	}		
+	}
+
+	var selected_skills = $(".panel.open .question li.selected");	
+
+	if(selected_skills.length > 0) {
+		review += "Lesson ";
+		selected_skills.length == 1 ? review += " Outcome:  " : review += " Outcomes:  ";
+	}	
 
 	//get checked assessment questions and build appropriate response
-	$(".panel.open .question li.selected").each(function() {
+	selected_skills.each(function() {
 		var checkbox = $(this).find("input[type=checkbox]"),
 			label = $(this).find("label").text(),
-			range = getSkillLevel($(this).find("input[type=range]").val()).toLowerCase(),
+			range = "",
 			input_type = $(this).data("input-type"),
 			is_literal = $(this).data("literal"),
 			is_quote = $(this).data("quote"),
@@ -341,7 +364,7 @@ function buildReview(client) {
 			break;
 
 			case "dropdown":
-				new_label = "The " + clientLabel.toLowerCase() + " utilized a " + input_label.toLowerCase() + " of " + $(this).find("select").val();
+				new_label = "The " + clientLabel.toLowerCase() + " " + input_label.toLowerCase() + " " + $(this).find("select").val();
 				input_label = new_label;
 			break;
 
@@ -385,6 +408,18 @@ function buildReview(client) {
 				input_label = new_label;
 			break;
 
+			case "multidropdown":
+				var q = $(this).find("input[type=checkbox]").attr("id"),
+					total_dropdowns = $(this).find("select").length;
+				new_label = "The " + clientLabel.toLowerCase();
+
+				for (var d = 0; d < total_dropdowns; d++) {
+					var qd = "#" + q + "d" + d;
+					new_label += " " + undercase($(this).find("label").eq(d).text()) + " " + $(qd).val();
+				}
+				input_label = new_label;				
+			break;
+
 			default:
 			break;
 		}
@@ -402,6 +437,13 @@ function buildReview(client) {
 		//adult review
 		if (!$(this).parent().hasClass("multi-list") && client == "adult") {
 			if (is_range) {
+				if ($(this).find(".range").hasClass("buttons")) {
+					range = $(this).find(".range span.selected").text().toLowerCase();
+				}
+				else {
+					range = getSkillLevel($(this).find("input[type=range]").val()).toLowerCase();	
+				}
+
 				if (range == "independently" || range == "dependently") {
 					review += input_label + " " + range + ".  ";
 				}
@@ -469,7 +511,7 @@ function buildReview(client) {
 	});
 
 	if (upcomingPlan != "") {
-		review += " Objective of the next lesson: " + upcomingPlan + ".  ";
+		review += " Objective of the next lesson:  " + upcomingPlan + ".  ";
 	}		
 
 	//output
@@ -588,6 +630,22 @@ function buildMultiFill(fills) {
 		fillrange += '<label for="q' + q + '">' + fills[f].skill + '</label><input type="text" name="q' + q + 'f' + f + '" id="q' + q + 'f' + f + '" placeholder="' + fills[f].placeholder + '" />';
 	}
 	return fillrange;
+}
+
+function buildMultiDropdown(dropdowns) {
+	var selectrange = '',
+		options = '';
+	for (var d = 0; d < dropdowns.length; d++) {
+		options = dropdowns[d].options;
+		selectrange += '<label for="q' + q + 'd' + d + '">' + dropdowns[d].skill + '</label>';
+		selectrange += '<select name="q' + q + 'd' + d + '" id="q' + q + 'd' + d + '">';
+
+		for (var o = 0; o < options.length; o++) {
+			selectrange += '<option value="' + options[o].option + '">' + options[o].option + '</option>';
+		}
+		selectrange += '</select>';
+	}
+	return selectrange;
 }
 
 function undercase(string) {

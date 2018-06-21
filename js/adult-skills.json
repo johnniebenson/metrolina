@@ -43,6 +43,10 @@
 				{
 					"type": "checkbox",
 					"skill": "Demonstrated the Hines break technique"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated ability to use a grocery cart with a guide"
 				}
 			]
 		},
@@ -72,7 +76,59 @@
 				{
 					"type": "checkbox",
 					"skill": "Demonstrated the ability to use systematic search patterns"
-				}						
+				},
+				{
+					"type": "fill",
+					"skill": "Traveled",
+					"placeholder": "e.g. 30",
+					"suffix": "minutes without requiring a break",
+					"size": "small"
+				}
+			]
+		},
+		{
+			"category": "Visual Skills",
+			"skills": [
+				{
+					"type": "checkbox",
+					"skill": "Visually detected curbs/drop offs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detected obstacles in line of travel"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detected hanging obstacles"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detected ramps/blended curbs"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detected and interpreted traffic control signals"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detected and interpreted pedestrian signals"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Visually detected vehicles approaching an intersection"
+				}, 
+				{
+					"type": "fill",
+					"skill": "Demonstrated ability to read",
+					"placeholder": "e.g. bathroom signage, house numbers",
+					"suffix": "using functional vision"
+				}, 
+				{
+					"type": "fill",
+					"skill": "Demonstrated the ability to use",
+					"placeholder": "e.g. monocular, iPhone",
+					"suffix": "to read signage"
+				}
 			]
 		},
 		{
@@ -119,13 +175,17 @@
 					"skill": "Demonstrated the ability to utilize tactile maps"
 				}, 
 				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to use problem solving techniques for orientation"
+				},
+				{
 					"type": "fill",
 					"skill": "Safely executed travel routes",
 					"placeholder": "e.g. in neighborhood, college campus, to doctor’s office, etc."
 				},
 				{
 					"type": "fill",
-					"skill": "Safely reverse traveled routes",
+					"skill": "Safely reversed travel routes",
 					"placeholder": "e.g. in neighborhood, college campus, to doctor’s office, etc."
 				}
 			]
@@ -135,7 +195,7 @@
 			"skills": [
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated the ability to care for and maintenance long cane"
+					"skill": "Demonstrated the ability to care for and maintenance of the long cane"
 				}, 
 				{
 					"type": "checkbox",
@@ -143,24 +203,52 @@
 				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated the ability to utilize appropriate mechanics when using the long cane"
-				}, 
-				{
-					"type": "checkbox",
 					"skill": "Demonstrated the ability to clear with the long cane before moving"
 				},
 				{
 					"type": "checkbox",
+					"skill": "Demonstrated the ability to utilize appropriate mechanics when using the long cane"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to stay behind the path of the cane during travel"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to maintain adequate protective arc with the long cane"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to negotiate obstacles safely with the long cane"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to respond appropriately to feedback from the long cane"
+				},
+				{
+					"type": "checkbox",
 					"skill": "Demonstrated diagonal technique"
-				}, 
+				},
 				{
 					"type": "checkbox",
 					"skill": "Demonstrated diagonal trailing technique"
-				}, 
+				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated trailing with constant contact technique"
-				}, 
+					"skill": "Demonstrated constant contact"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated trailing with constant contact"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated two point touch"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated trailing with two point touch"
+				},
 				{
 					"type": "checkbox",
 					"skill": "Demonstrated touch and drag technique"
@@ -171,19 +259,7 @@
 				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated two point touch technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated trailing with two point touch technique"
-				},				
-				{
-					"type": "checkbox",
 					"skill": "Demonstrated three point touch technique"
-				},
-				{
-					"type": "checkbox",
-					"skill": "Demonstrated constant contact technique"
 				},
 				{
 					"type": "checkbox",
@@ -191,19 +267,27 @@
 				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated the ability to ascend stairs with the long cane"
-				}, 
+					"skill": "Demonstrated ability to ascend stairs with the long cane"
+				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated the ability to descend stairs with the long cane"
-				}, 
+					"skill": "Demonstrated ability to descend stairs with the long cane"
+				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated the ability to negotiate up curbs"
-				}, 
+					"skill": "Demonstrated the ability to negotiate up curbs with the long cane"
+				},
 				{
 					"type": "checkbox",
-					"skill": "Demonstrated the ability to negotiate down curbs"
+					"skill": "Demonstrated the ability to negotiate down curbs with the long cane"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to use the long cane appropriately in crowded areas"
+				},
+				{
+					"type": "checkbox",
+					"skill": "Demonstrated the ability to make safe turns with the long cane"
 				}
 			]
 		},
@@ -259,6 +343,20 @@
 		},
 		{
 			"category": "Street Crossings",
+			"skills": [
+				{
+					"type": "fill",
+					"skill": "Using TMAD, the client demonstrated the ability to safely detect traffic at",
+					"placeholder": "Intersection/street name",
+					"literal": true
+				},
+				{
+					"type": "fill",
+					"skill": "Using TMAD, the client did not demonstrate the ability to safely detect traffic at",
+					"placeholder": "Intersection/street name",
+					"literal": true
+				}
+			],
 			"groups": [
 				{
 					"group": "Residential Street Crossings",
@@ -556,26 +654,47 @@
 							"type": "fill",
 							"skill": "Demonstrated the ability to negotiate",
 							"placeholder": "e.g. Charlotte Transportation Center, Eastland Community Transportation Center, Southpark Community Transportation Center, Rosa Parks Place Community Transportation Center"
-						}					
+						},
+						{
+							"type": "multifill",
+							"fills": [
+								{
+									"skill": "Utilized fixed route bus to travel from",
+									"placeholder": "starting point e.g. client’s home"						
+								},
+								{
+									"skill": "to",
+									"placeholder": "destination e.g. South Park Mall"								
+								}
+							]
+						},						
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated the ability to locate the destination after exiting the bus"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Demonstrated to locate the correct bus stop"
+						}							
 					]
 				},
 				{
 					"group": "Para Transit",
 					"skills": [
 						{
-							"type": "fill",
-							"skill": "Demonstrated understanding of",
-							"placeholder": "e.g. STS para transit policies and guidelines"
+							"type": "checkbox",
+							"skill": "Demonstrated understanding of para transit policies and guidelines",
+							"range": false
 						},	 
 						{
-							"type": "fill",
-							"skill": "Purchased",
-							"placeholder": "e.g. para transit tickets"
+							"type": "checkbox",
+							"skill": "Purchased para transit tickets",
+							"range": false
 						},	 
 						{
-							"type": "fill",
-							"skill": "Obtained ID for",
-							"placeholder": "e.g. para transit"
+							"type": "checkbox",
+							"skill": "Obtained ID for para transit",
+							"range": false
 						},	  
 						{
 							"type": "fill",
@@ -603,6 +722,10 @@
 						{
 							"type": "checkbox",
 							"skill": "Demonstrated ability to communicate as needed with the driver"
+						},
+						{
+							"type": "checkbox",
+							"skill": "Located the Uber/Lyft/Taxi vehicle successfully"
 						} 						
 					]					
 				},
@@ -667,6 +790,28 @@
 					"type": "fill",
 					"skill": "Demonstrated the ability to utilize",
 					"placeholder": "e.g. Be My Eyes, Tap Tap See, Money Reader, etc."
+				},
+				{
+					"type": "fill",
+					"skill": "Used",
+					"placeholder": "e.g. Blindsquare",
+					"suffix": "to plot a route to a desired POI"
+				},
+				{
+					"type": "fill",
+					"skill": "Used",
+					"placeholder": "e.g. Blindsquare",
+					"suffix": "to create a digital landmark"
+				},
+				{
+					"type": "fill",
+					"skill": "Used",
+					"placeholder": "e.g. GPS device feature, Blindsquare Look Around"
+				},
+				{
+					"type": "fill",
+					"skill": "Used",
+					"placeholder": "e.g. GPS device feature, Blindsquare Look Around"
 				}
 			]
 		},	
@@ -710,7 +855,7 @@
 						},
 						{
 							"type": "dropdown",
-							"skill": "Cane Measurement",
+							"skill": "Utilized a cane measurement of",
 							"literal": true,
 							"range": false,
 							"options": [
@@ -757,59 +902,67 @@
 								{
 									"id": 10,
 									"option": "60\""
-								}
+								},
+								{
+									"id": 11,
+									"option": "62\""
+								},	
+								{
+									"id": 12,
+									"option": "64\""
+								}																
 							]
-						},
-						{
-							"type": "yesno",
-							"skill": "Was interested in non-priority O&M training program",
-							"range": false
 						},
 						{
 							"type": "checkbox",
 							"skill": "Is currently on O&M wait list for non-priority training",
 							"range": false
+						},	
+						{
+							"type": "checkbox",
+							"skill": "Recommended O&M training",
+							"range": false
 						},
 						{
-							"type": "multi",
-							"skill": "Recommended O&M training",
-							"literal": true,
-							"range": false,
-							"options": [
-								{
-									"id": 0,
-									"option": "Explained differences between long cane training/priority ID cane training"
-								},
-								{
-									"id": 1,
-									"option": "Explained format of O&M training"
-								},
-								{
-									"id": 2,
-									"option": "Explained O&M wait list"
-								},
-								{
-									"id": 3,
-									"option": "Explained process of requesting non-priority O&M training from the Case Manager"
-								},
-								{
-									"id": 4,
-									"option": "Introduced NC Lions cane"
-								},
-								{
-									"id": 5,
-									"option": "Introduced ID cane"
-								}, 
-								{
-									"id": 6,
-									"option": "Introduced red and white support cane"
-								},
-								{
-									"id": 7,
-									"option": "Introduced long canes sold at MAB"
-								}		
-							]
-						},		
+							"type": "checkbox",
+							"skill": "Explained differences between non-priority O&M training and Visual Impairment Identification training",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Explained format of O&M training",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Explained O&M wait list",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Explained process of requesting non-priority O&M training from the Case Manager",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Introduced NC Lions cane",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Introduced ID cane",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Introduced red and white support cane",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "Introduced long canes sold at MAB",
+							"range": false
+						},																																																
 						{
 							"type": "checkbox",
 							"skill": "Demonstrated the ability to grip the cane"
@@ -832,10 +985,92 @@
 						}, 
 						{
 							"type": "checkbox",
-							"skill": "COMS will follow up",
+							"skill": "COMS will follow up with the client in several weeks to determine if the client has received long cane",
 							"literal": true,
 							"range": false
-						}			
+						},
+						{
+							"type": "multidropdown",
+							"dropdowns": [
+								{
+									"skill": "Would like to purchase",
+									"options": [
+										{
+											"id": 0,
+											"option": "Ambutech"
+										},
+										{
+											"id": 1,
+											"option": "Revolution"
+										},
+										{
+											"id": 2,
+											"option": "Maxi Aids"
+										},
+										{
+											"id": 3,
+											"option": "Support Cane"
+										},
+										{
+											"id": 4,
+											"option": "ID Cane"
+										}																																
+									]
+								},
+								{
+									"skill": "made of",
+									"options": [
+										{
+											"id": 0,
+											"option": "Graphite"
+										},
+										{
+											"id": 1,
+											"option": "Aluminum"
+										}
+									]							
+								},
+								{
+									"skill": "with a",
+									"options": [
+										{
+											"id": 0,
+											"option": "Marshmallow Roller"
+										},
+										{
+											"id": 1,
+											"option": "Jumbo Roller"
+										},
+										{
+											"id": 2,
+											"option": "Rolling Ball"
+										},
+										{
+											"id": 3,
+											"option": "Marshmallow Standard"
+										},
+										{
+											"id": 4,
+											"option": "Metal Glide"
+										},
+										{
+											"id": 5,
+											"option": "Ceramic"
+										},
+										{
+											"id": 6,
+											"option": "Dakota Disc"
+										},
+										{
+											"id": 7,
+											"option": "Pencil"
+										}																																								
+									]							
+								}
+							],
+							"suffix": "tip",
+							"range": false
+						}										
 					]
 				},
 				{
@@ -847,26 +1082,38 @@
 							"placeholder": "e.g. STS para transit"
 						},
 						{
-							"type": "fill",
-							"skill": "COMS submitted the completed para transit application to",
-							"placeholder": "e.g. para transit organization",
+							"type": "checkbox",
+							"skill": "The client’s para transit application was submitted",
 							"literal": true,
 							"range": false
 						},
 						{
 							"type": "checkbox",
-							"skill": "Demonstrated understanding of para transit policies"
+							"skill": "Demonstrated understanding of para transit policies",
+							"range": false
 						},
 						{
 							"type": "checkbox",
-							"skill": "Demonstrated awareness of para transit ticket sales locations"
+							"skill": "Demonstrated awareness of para transit ticket sales locations",
+							"range": false
 						},
 						{
 							"type": "checkbox",
-							"skill": "COMS will follow up",
+							"skill": "COMS will follow up with the client in several weeks to determine status of para transit application",
 							"literal": true,
 							"range": false
-						} 						
+						},
+						{
+							"type": "checkbox",
+							"skill": "Completed client’s application for STS",
+							"range": false
+						},
+						{
+							"type": "checkbox",
+							"skill": "The completed para transit application was placed in the client’s O&M folder",
+							"literal": true,
+							"range": false
+						}				
 					]
 				}
 			]
@@ -897,7 +1144,7 @@
 				},
 				{
 					"type": "checkbox",
-					"skill": "Received an introduction to the types and purposes of various canes, including the NC Lions cane, ID cane, red and white support cane, and long canes available for purchase at MAB",
+					"skill": "Received and introduction to the types and purposes of various canes, including but not limited the ID cane, red and white support cane, and long canes available for purchase at MAB",
 					"range": false
 				},
 				{
@@ -912,47 +1159,47 @@
 						},
 					    {
 					    	"id": 1,
-							"option": "Dog guides"
+							"option": "dog guides"
 						},
 					    {
 					    	"id": 2,
-							"option": "Orientation techniques"
+							"option": "orientation techniques"
 						},
 					    {
 					    	"id": 3,
-							"option": "Adjustment to using a mobility device and being identified as visually impaired"
+							"option": "adjustment to using a mobility device and being identified as visually impaired"
 						}, 
 					    {
 					    	"id": 4,
-							"option": "Street crossings"
+							"option": "street crossings"
 						},
 					    {
 					    	"id": 5,
-							"option": "The built environment (e.g. intersections, sidewalks)"
+							"option": "the built environment (e.g. intersections, sidewalks)"
 						}, 
 					    {
 					    	"id": 6,
-							"option": "Calling 311 to request maintenance needed within the community"
+							"option": "calling 311 to request maintenance needed within the community"
 						}, 
 					    {
 					    	"id": 7,
-							"option": "Marking support canes and walkers with reflective tape"
+							"option": "marking support canes and walkers with reflective tape"
 						},
 					    {
 					    	"id": 8,
-							"option": "Self-advocacy skills"
+							"option": "self-advocacy skills"
 						}, 
 					    {
 					    	"id": 9,
-							"option": "Family sensitivity training"
+							"option": "family sensitivity training"
 						},
 					    {
 					    	"id": 10,
-							"option": "Human guide"
+							"option": "human guide"
 						},
 					    {
 					    	"id": 11,
-							"option": "Self-protective techniques"
+							"option": "self-protective techniques"
 						}
 					]
 				},	

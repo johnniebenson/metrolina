@@ -1,17 +1,6 @@
 {
 	"client": "student",
 	"assessment": [
-		{
-			"category": "Teaching Methods/Materials",
-			"skills": [
-				{
-					"type": "fill",
-					"skill": "Teaching Methods/Materials:",
-					"placeholder": "e.g. Student created a tactile map of a residential area",
-					"literal": true
-				}
-			]			
-		},
 		{	
 			"category": "Long Cane Techniques",
 			"groups": [

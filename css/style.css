@@ -346,6 +346,59 @@ section {
 	font-weight:bold;
 }
 
+.questions .question .range.buttons {
+	width:auto;
+	max-width:inherit;
+}
+
+.questions .question .range.buttons span {
+	font-size:9px;
+	font-weight:normal;
+	border:solid 1px #ccc;
+	border-right:0;
+	display:inline-block;
+	height:40px;
+	width:100px;
+	line-height:40px;
+	cursor:pointer;
+	/*background: -moz-linear-gradient(top, #ffffff 65%, #ceefff 100%);
+	background: -webkit-linear-gradient(top, #ffffff 65%,#ceefff 100%);
+	background: linear-gradient(to bottom, #ffffff 65%,#ceefff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ceefff',GradientType=0 );*/
+	background:#f1f1f1;
+	color:#222;
+}
+
+.questions .question .range.buttons span:first-child {
+	border-radius:3px 0 0 3px;
+}
+
+.questions .question .range.buttons span:last-child {
+	border-radius:0 3px 3px 0;
+	border-right:solid 1px #ccc;
+}
+
+.questions .question .range.buttons span:hover {
+	/*background: -moz-linear-gradient(top, #fafafa 65%, #d8d8d8 100%);
+	background: -webkit-linear-gradient(top, #fafafa 65%,#d8d8d8 100%);
+	background: linear-gradient(to bottom, #fafafa 65%,#d8d8d8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#d8d8d8',GradientType=0 );*/
+	background:#ddd;
+}
+
+.questions .question .range.buttons span:active {
+	background:#ccc;
+}
+
+.questions .question .range.buttons span.selected {
+	/*background: -moz-linear-gradient(top, #0054a4 65%, #002756 100%);
+	background: -webkit-linear-gradient(top, #0054a4 65%,#002756 100%);
+	background: linear-gradient(to bottom, #0054a4 65%,#002756 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0054a4', endColorstr='#002756',GradientType=0 );*/
+	background:#0054a4;
+	color:#fff;
+}
+
 .questions .question input[type="text"] {
 	display:inline-block;
 	width:auto;
@@ -636,4 +689,12 @@ footer p {
 	footer {
 		padding:20px;
 	}
+}
+
+@media screen and (max-width: 699px) {
+	.questions .question .range.buttons span {
+		border:solid 1px #aaa !important;
+		border-radius:3px !important;
+		width:100% !important;
+	}	
 }
